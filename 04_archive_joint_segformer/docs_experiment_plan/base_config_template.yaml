@@ -1,0 +1,35 @@
+model:
+  name: segformer_b0_multitask
+  pretrained: true
+  segmentation_channels: [body, windshield, bogie, door]
+  keypoint_head: true
+
+data:
+  root: ./data/processed
+  metadata: ./data/processed/metadata.csv
+  splits_dir: ./data/splits
+  front_size: [640, 640]
+  side_size: [512, 1024]
+  resize_mode: letterbox
+  batch_size: 1
+  num_workers: 4
+
+loss:
+  bce_weight: 1.0
+  dice_weight: 1.0
+  nose_tip_weight: 0.5
+  heatmap_sigma: 4
+
+optimizer:
+  name: adamw
+  backbone_lr: 1.0e-5
+  head_lr: 1.0e-4
+  weight_decay: 0.01
+
+training:
+  epochs: 100
+  amp: true
+  gradient_accumulation_steps: 4
+  freeze_backbone_epochs: 15
+  early_stopping_patience: 15
+  seed: 42

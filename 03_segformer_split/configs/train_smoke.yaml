@@ -1,0 +1,53 @@
+model:
+  name: segformer_b0_multitask
+  pretrained: true
+  backbone: nvidia/mit-b0
+  segmentation_channels: [body, windshield, bogie, door]
+  keypoint_head: true
+  decoder_channels: 128
+  keypoint_out_stride: 4
+
+data:
+  root: ./data/processed
+  metadata: ./data/processed/metadata.csv
+  splits_dir: ./data/splits
+  front_size: [256, 256]
+  side_size: [256, 512]
+  resize_mode: letterbox
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  batch_size: 1
+  num_workers: 0
+
+loss:
+  bce_weight: 1.0
+  dice_weight: 1.0
+  use_pos_weight: false
+  loss_weights:
+    body: 1.0
+    windshield: 1.0
+    bogie: 1.0
+    door: 1.0
+    nose_tip: 0.5
+  heatmap_sigma: 4
+  heatmap_loss: mse
+
+optimizer:
+  name: adamw
+  backbone_lr: 1.0e-5
+  head_lr: 1.0e-4
+  weight_decay: 0.01
+
+training:
+  epochs: 1
+  amp: false
+  gradient_accumulation_steps: 1
+  freeze_backbone_epochs: 0
+  early_stopping_patience: 15
+  grad_clip_norm: 1.0
+  seed: 42
+  fold: 0
+  max_train_batches: 2
+  max_val_batches: 1
+  save_checkpoint: false
+  output_dir: ./outputs

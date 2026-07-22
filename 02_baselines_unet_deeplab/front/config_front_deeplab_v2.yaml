@@ -1,0 +1,37 @@
+# Front from data_unet/front — larger encoder + anti-overfit
+# Classes: 0 bg, 1 body, 2 windshield, 3 nose_tip (ellipse GT)
+# Official tip: peak -> ellipse rx=24,ry=12 then merge
+
+data:
+  prepared_dir: ../data_unet/front
+  fold_json: ../data/front/splits/fold_0.json
+  image_size: 512
+  val_ratio: 0.2
+  test_ratio: 0.0
+  seed: 42
+  class_names: [background, body, windshield, nose_tip]
+  tip_ellipse_rx: 24
+  tip_ellipse_ry: 12
+
+model:
+  arch: DeepLabV3Plus
+  encoder: resnet34
+  encoder_weights: imagenet
+  num_classes: 4
+
+train:
+  epochs: 100
+  batch_size: 2
+  lr: 5.0e-5
+  weight_decay: 5.0e-4
+  num_workers: 0
+  amp: true
+  early_stop_patience: 20
+  strong_aug: true
+  class_weights: [0.2, 1.0, 2.5, 5.0]
+  dice_weight: 1.0
+  ce_weight: 1.0
+
+paths:
+  output_dir: outputs/deeplab
+  run_name: front_deeplab_v2

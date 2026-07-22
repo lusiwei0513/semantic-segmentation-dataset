@@ -1,0 +1,16 @@
+{
+  "label_to_id": {
+    "background": 0,
+    "body": 1,
+    "windshield": 2,
+    "bogie": 3,
+    "door": 4
+  },
+  "paint_order": [
+    "body",
+    "windshield",
+    "bogie",
+    "door"
+  ],
+  "note": "先画 body，再 windshield/bogie，最后 door（避免四角点矩形被画成细条、以及被 bogie 覆盖）；其余为 background=0（仅占位，不计入类别 mIoU）。"
+}

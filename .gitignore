@@ -1,0 +1,38 @@
+# Git
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.cursor/
+
+# Python
+.venv/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# TensorBoard / caches
+**/tb/
+**/runs/
+*.pt.bck
+
+# Do not ship last.pt (keep best.pt via LFS)
+**/last.pt
+
+# Huge archives & installers
+*.zip
+*.rar
+*.7z
+*.exe
+*.msi
+
+# Archive clutter (code/docs of joint train kept; skip bulky third-party)
+05_archive_misc/
+04_archive_joint_segformer/archive_bundles/
+04_archive_joint_segformer/third_party/
+04_archive_joint_segformer/supplemental/
+
+# Optional local smoke configs
+**/_smoke_*.yaml

@@ -1,0 +1,30 @@
+# U-Net front-view training on GPT batch (189 images)
+# Classes: 0 background, 1 body, 2 windshield, 3 nose_tip
+
+data:
+  prepared_dir: ../prepared_front_gpt
+  image_size: 512
+  val_ratio: 0.2
+  seed: 42
+
+model:
+  arch: Unet
+  encoder: resnet34
+  encoder_weights: imagenet
+  num_classes: 4
+
+train:
+  epochs: 100
+  batch_size: 2
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 0
+  amp: true
+  early_stop_patience: 20
+  class_weights: [0.5, 1.0, 2.0, 4.0]
+  dice_weight: 1.0
+  ce_weight: 1.0
+
+paths:
+  output_dir: outputs
+  run_name: unet_resnet34_front_gpt189

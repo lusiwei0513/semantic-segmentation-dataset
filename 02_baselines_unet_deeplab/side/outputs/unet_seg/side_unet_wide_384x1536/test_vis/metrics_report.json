@@ -1,0 +1,23 @@
+{
+  "weights": "outputs_side\\unet_resnet34_data_side_tune_384x1536\\best.pt",
+  "config": "config_data_side_unet_tune_384x1536.yaml",
+  "split": "test",
+  "image_size": [
+    384,
+    1536
+  ],
+  "num": 38,
+  "miou": 0.8071539402008057,
+  "iou": {
+    "background": 0.982732355594635,
+    "body": 0.9679070115089417,
+    "windshield": 0.5533655881881714,
+    "bogie": 0.864124596118927,
+    "door": 0.8432186841964722
+  },
+  "ppt_picks_best_mid_worst": [
+    "side_e4e6f468",
+    "side_de6ce488",
+    "side_d7cd1123"
+  ]
+}

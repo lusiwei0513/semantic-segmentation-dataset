@@ -1,0 +1,2093 @@
+{
+  "num_samples": 189,
+  "label_to_id": {
+    "background": 0,
+    "body": 1,
+    "windshield": 2,
+    "nose_tip": 3
+  },
+  "nose_tip_radius": 16,
+  "nose_tip_shape": "horizontal_ellipse",
+  "nose_width_ratio": 0.08,
+  "samples": [
+    {
+      "stem": "c0210454-CJ1_-_06_-FrontSide_front",
+      "image": "c0210454-CJ1_-_06_-FrontSide_front.jpg",
+      "mask": "c0210454-CJ1_-_06_-FrontSide_front.png",
+      "pixels": {
+        "0": 977438,
+        "1": 260921,
+        "2": 34286,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c0595a09-C300BF-K-0001-05-FrontSide_front",
+      "image": "c0595a09-C300BF-K-0001-05-FrontSide_front.jpeg",
+      "mask": "c0595a09-C300BF-K-0001-05-FrontSide_front.png",
+      "pixels": {
+        "0": 632408,
+        "1": 358462,
+        "2": 51411,
+        "3": 999
+      }
+    },
+    {
+      "stem": "c06956a5-NYJ1-7001A-Side_Front_front",
+      "image": "c06956a5-NYJ1-7001A-Side_Front_front.jpg",
+      "mask": "c06956a5-NYJ1-7001A-Side_Front_front.png",
+      "pixels": {
+        "0": 1148335,
+        "1": 277846,
+        "2": 22538,
+        "3": 641
+      }
+    },
+    {
+      "stem": "c114f990-CRH2_2-Side_Front_front",
+      "image": "c114f990-CRH2_2-Side_Front_front.jpg",
+      "mask": "c114f990-CRH2_2-Side_Front_front.png",
+      "pixels": {
+        "0": 933556,
+        "1": 218473,
+        "2": 22336,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c13e8906-DJF1_10_Front_Side_front",
+      "image": "c13e8906-DJF1_10_Front_Side_front.jpg",
+      "mask": "c13e8906-DJF1_10_Front_Side_front.png",
+      "pixels": {
+        "0": 889871,
+        "1": 250840,
+        "2": 32574,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c160cbda-KDZ1_05_FrontSide_front",
+      "image": "c160cbda-KDZ1_05_FrontSide_front.jpg",
+      "mask": "c160cbda-KDZ1_05_FrontSide_front.png",
+      "pixels": {
+        "0": 932472,
+        "1": 215616,
+        "2": 69477,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c200e5c1-CRH3C-08-FrontSide_front",
+      "image": "c200e5c1-CRH3C-08-FrontSide_front.jpeg",
+      "mask": "c200e5c1-CRH3C-08-FrontSide_front.png",
+      "pixels": {
+        "0": 735706,
+        "1": 367397,
+        "2": 62050,
+        "3": 1247
+      }
+    },
+    {
+      "stem": "c243126c-CRH2E_front_side.008_front",
+      "image": "c243126c-CRH2E_front_side.008_front.jpeg",
+      "mask": "c243126c-CRH2E_front_side.008_front.png",
+      "pixels": {
+        "0": 701557,
+        "1": 335226,
+        "2": 50894,
+        "3": 963
+      }
+    },
+    {
+      "stem": "c281fd76-CR200J2-JT001-Side_Front_front",
+      "image": "c281fd76-CR200J2-JT001-Side_Front_front.jpg",
+      "mask": "c281fd76-CR200J2-JT001-Side_Front_front.png",
+      "pixels": {
+        "0": 933054,
+        "1": 248938,
+        "2": 36687,
+        "3": 641
+      }
+    },
+    {
+      "stem": "c376fc3a-CRH6A_01_FrontSide_front",
+      "image": "c376fc3a-CRH6A_01_FrontSide_front.jpg",
+      "mask": "c376fc3a-CRH6A_01_FrontSide_front.png",
+      "pixels": {
+        "0": 1261995,
+        "1": 205575,
+        "2": 36459,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c41e5b42-CR200J-B_17_FrontSide_front",
+      "image": "c41e5b42-CR200J-B_17_FrontSide_front.jpg",
+      "mask": "c41e5b42-CR200J-B_17_FrontSide_front.png",
+      "pixels": {
+        "0": 885792,
+        "1": 234568,
+        "2": 51811,
+        "3": 709
+      }
+    },
+    {
+      "stem": "c4785362-CJ1-Side_Front_front",
+      "image": "c4785362-CJ1-Side_Front_front.jpg",
+      "mask": "c4785362-CJ1-Side_Front_front.png",
+      "pixels": {
+        "0": 734276,
+        "1": 351496,
+        "2": 43989,
+        "3": 999
+      }
+    },
+    {
+      "stem": "c5d4f45e-CRH400AF-A-01-FrontSide_front",
+      "image": "c5d4f45e-CRH400AF-A-01-FrontSide_front.jpeg",
+      "mask": "c5d4f45e-CRH400AF-A-01-FrontSide_front.png",
+      "pixels": {
+        "0": 654516,
+        "1": 330343,
+        "2": 90902,
+        "3": 999
+      }
+    },
+    {
+      "stem": "c6297dfc-CRH380D_04-Side_Front_front",
+      "image": "c6297dfc-CRH380D_04-Side_Front_front.jpg",
+      "mask": "c6297dfc-CRH380D_04-Side_Front_front.png",
+      "pixels": {
+        "0": 998058,
+        "1": 239274,
+        "2": 50399,
+        "3": 709
+      }
+    },
+    {
+      "stem": "c6369d2c-CRH6F-A-0447-Side_Front_front",
+      "image": "c6369d2c-CRH6F-A-0447-Side_Front_front.jpg",
+      "mask": "c6369d2c-CRH6F-A-0447-Side_Front_front.png",
+      "pixels": {
+        "0": 890743,
+        "1": 262234,
+        "2": 35394,
+        "3": 709
+      }
+    },
+    {
+      "stem": "c68fddff-CR200J2-JT001_08_FrontSide_2_front",
+      "image": "c68fddff-CR200J2-JT001_08_FrontSide_2_front.jpg",
+      "mask": "c68fddff-CR200J2-JT001_08_FrontSide_2_front.png",
+      "pixels": {
+        "0": 1035482,
+        "1": 245389,
+        "2": 34974,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c6a2a9f2-CR200J-B_06_FrontSide_front",
+      "image": "c6a2a9f2-CR200J-B_06_FrontSide_front.jpg",
+      "mask": "c6a2a9f2-CR200J-B_06_FrontSide_front.png",
+      "pixels": {
+        "0": 765819,
+        "1": 288615,
+        "2": 36626,
+        "3": 820
+      }
+    },
+    {
+      "stem": "c6b5a504-CRH2A_8-Side_Front_front",
+      "image": "c6b5a504-CRH2A_8-Side_Front_front.jpg",
+      "mask": "c6b5a504-CRH2A_8-Side_Front_front.png",
+      "pixels": {
+        "0": 927666,
+        "1": 195255,
+        "2": 44964,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c7401f30-C400BF-K-0001-Side_Front_front",
+      "image": "c7401f30-C400BF-K-0001-Side_Front_front.jpg",
+      "mask": "c7401f30-C400BF-K-0001-Side_Front_front.png",
+      "pixels": {
+        "0": 930634,
+        "1": 220062,
+        "2": 30149,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c7488cdc-CRH3A-Side_Front_front",
+      "image": "c7488cdc-CRH3A-Side_Front_front.jpg",
+      "mask": "c7488cdc-CRH3A-Side_Front_front.png",
+      "pixels": {
+        "0": 819025,
+        "1": 291554,
+        "2": 49496,
+        "3": 925
+      }
+    },
+    {
+      "stem": "c74e3aab-CR450AF_07_FrontSide_front",
+      "image": "c74e3aab-CR450AF_07_FrontSide_front.jpg",
+      "mask": "c74e3aab-CR450AF_07_FrontSide_front.png",
+      "pixels": {
+        "0": 1102028,
+        "1": 200718,
+        "2": 44611,
+        "3": 675
+      }
+    },
+    {
+      "stem": "c8b1a412-CR400BF_26_FrontSide_front",
+      "image": "c8b1a412-CR400BF_26_FrontSide_front.jpg",
+      "mask": "c8b1a412-CR400BF_26_FrontSide_front.png",
+      "pixels": {
+        "0": 1318054,
+        "1": 210787,
+        "2": 45874,
+        "3": 709
+      }
+    },
+    {
+      "stem": "c9b4ea66-CRH2J_front_side.009_front",
+      "image": "c9b4ea66-CRH2J_front_side.009_front.jpeg",
+      "mask": "c9b4ea66-CRH2J_front_side.009_front.png",
+      "pixels": {
+        "0": 1012403,
+        "1": 340620,
+        "2": 34894,
+        "3": 963
+      }
+    },
+    {
+      "stem": "c9c00fa3-CR400BF-A-Side_Front_front",
+      "image": "c9c00fa3-CR400BF-A-Side_Front_front.jpg",
+      "mask": "c9c00fa3-CR400BF-A-Side_Front_front.png",
+      "pixels": {
+        "0": 745607,
+        "1": 306721,
+        "2": 26852,
+        "3": 820
+      }
+    },
+    {
+      "stem": "caf4bb10-CRH0307-0001-04-FrontSide_front",
+      "image": "caf4bb10-CRH0307-0001-04-FrontSide_front.jpeg",
+      "mask": "caf4bb10-CRH0307-0001-04-FrontSide_front.png",
+      "pixels": {
+        "0": 766585,
+        "1": 314720,
+        "2": 91528,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "cafe0864-CRH380AJ-0201-Side_Front_front",
+      "image": "cafe0864-CRH380AJ-0201-Side_Front_front.jpg",
+      "mask": "cafe0864-CRH380AJ-0201-Side_Front_front.png",
+      "pixels": {
+        "0": 921648,
+        "1": 268669,
+        "2": 21703,
+        "3": 820
+      }
+    },
+    {
+      "stem": "cb071342-CRH380CL_05-Side_Front_front",
+      "image": "cb071342-CRH380CL_05-Side_Front_front.jpg",
+      "mask": "cb071342-CRH380CL_05-Side_Front_front.png",
+      "pixels": {
+        "0": 1009473,
+        "1": 245042,
+        "2": 48336,
+        "3": 709
+      }
+    },
+    {
+      "stem": "cbb298cd-DDJ2_09_Front_Side_front",
+      "image": "cbb298cd-DDJ2_09_Front_Side_front.jpg",
+      "mask": "cbb298cd-DDJ2_09_Front_Side_front.png",
+      "pixels": {
+        "0": 967921,
+        "1": 200429,
+        "2": 37369,
+        "3": 641
+      }
+    },
+    {
+      "stem": "cdba4ea9-CR450AF_11_FrontSide_front",
+      "image": "cdba4ea9-CR450AF_11_FrontSide_front.jpg",
+      "mask": "cdba4ea9-CR450AF_11_FrontSide_front.png",
+      "pixels": {
+        "0": 1012076,
+        "1": 201698,
+        "2": 28081,
+        "3": 641
+      }
+    },
+    {
+      "stem": "ce572f2e-CR400BF_06_FrontSide_front",
+      "image": "ce572f2e-CR400BF_06_FrontSide_front.jpg",
+      "mask": "ce572f2e-CR400BF_06_FrontSide_front.png",
+      "pixels": {
+        "0": 1203602,
+        "1": 241514,
+        "2": 30591,
+        "3": 709
+      }
+    },
+    {
+      "stem": "ce7eae8d-CRH380AJ_front_side.015_front",
+      "image": "ce7eae8d-CRH380AJ_front_side.015_front.jpeg",
+      "mask": "ce7eae8d-CRH380AJ_front_side.015_front.png",
+      "pixels": {
+        "0": 852206,
+        "1": 324688,
+        "2": 39303,
+        "3": 963
+      }
+    },
+    {
+      "stem": "ced3a81c-CRH2G_front_side.005_front",
+      "image": "ced3a81c-CRH2G_front_side.005_front.jpeg",
+      "mask": "ced3a81c-CRH2G_front_side.005_front.png",
+      "pixels": {
+        "0": 723676,
+        "1": 335521,
+        "2": 52240,
+        "3": 963
+      }
+    },
+    {
+      "stem": "cf0b141b-CR300AF-0003_-_05_-_FrontSide_front",
+      "image": "cf0b141b-CR300AF-0003_-_05_-_FrontSide_front.jpg",
+      "mask": "cf0b141b-CR300AF-0003_-_05_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1129911,
+        "1": 218863,
+        "2": 27517,
+        "3": 709
+      }
+    },
+    {
+      "stem": "cf568667-CRH380AM_front_side.009_front",
+      "image": "cf568667-CRH380AM_front_side.009_front.jpeg",
+      "mask": "cf568667-CRH380AM_front_side.009_front.png",
+      "pixels": {
+        "0": 715357,
+        "1": 346703,
+        "2": 45095,
+        "3": 925
+      }
+    },
+    {
+      "stem": "cf68234d-CR450AF_32_FrontSide_front",
+      "image": "cf68234d-CR450AF_32_FrontSide_front.jpg",
+      "mask": "cf68234d-CR450AF_32_FrontSide_front.png",
+      "pixels": {
+        "0": 1225142,
+        "1": 185606,
+        "2": 39969,
+        "3": 675
+      }
+    },
+    {
+      "stem": "cf6a0fcc-CJ6_-_02_-_FrontSide_front",
+      "image": "cf6a0fcc-CJ6_-_02_-_FrontSide_front.jpg",
+      "mask": "cf6a0fcc-CJ6_-_02_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1108819,
+        "1": 244603,
+        "2": 30463,
+        "3": 675
+      }
+    },
+    {
+      "stem": "cfe15c12-DDJ1_09_Front_Side_front",
+      "image": "cfe15c12-DDJ1_09_Front_Side_front.jpg",
+      "mask": "cfe15c12-DDJ1_09_Front_Side_front.png",
+      "pixels": {
+        "0": 1744909,
+        "1": 267975,
+        "2": 36247,
+        "3": 709
+      }
+    },
+    {
+      "stem": "cffc54b0-CRH380CL_07-Side_Front_front",
+      "image": "cffc54b0-CRH380CL_07-Side_Front_front.jpg",
+      "mask": "cffc54b0-CRH380CL_07-Side_Front_front.png",
+      "pixels": {
+        "0": 1020734,
+        "1": 215540,
+        "2": 56891,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d092a361-CR450AF_22_FrontSide_front",
+      "image": "d092a361-CR450AF_22_FrontSide_front.jpg",
+      "mask": "d092a361-CR450AF_22_FrontSide_front.png",
+      "pixels": {
+        "0": 1126234,
+        "1": 203332,
+        "2": 41693,
+        "3": 709
+      }
+    },
+    {
+      "stem": "d12dc6b3-CR200J2-JT001_02_Frontside_2_front",
+      "image": "d12dc6b3-CR200J2-JT001_02_Frontside_2_front.jpg",
+      "mask": "d12dc6b3-CR200J2-JT001_02_Frontside_2_front.png",
+      "pixels": {
+        "0": 951919,
+        "1": 245832,
+        "2": 39254,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d1768f23-CR450AF_18_FrontSide_front",
+      "image": "d1768f23-CR450AF_18_FrontSide_front.jpg",
+      "mask": "d1768f23-CR450AF_18_FrontSide_front.png",
+      "pixels": {
+        "0": 1186884,
+        "1": 188404,
+        "2": 42755,
+        "3": 709
+      }
+    },
+    {
+      "stem": "d17f132f-DJF1_09_Front_Side_front",
+      "image": "d17f132f-DJF1_09_Front_Side_front.jpg",
+      "mask": "d17f132f-DJF1_09_Front_Side_front.png",
+      "pixels": {
+        "0": 874507,
+        "1": 252970,
+        "2": 28562,
+        "3": 641
+      }
+    },
+    {
+      "stem": "d1f80c59-DJF1_08_Front_Side_front",
+      "image": "d1f80c59-DJF1_08_Front_Side_front.jpg",
+      "mask": "d1f80c59-DJF1_08_Front_Side_front.png",
+      "pixels": {
+        "0": 1050326,
+        "1": 233643,
+        "2": 41596,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d25405c9-CRH2_4-Side_Front_front",
+      "image": "d25405c9-CRH2_4-Side_Front_front.jpg",
+      "mask": "d25405c9-CRH2_4-Side_Front_front.png",
+      "pixels": {
+        "0": 948403,
+        "1": 189356,
+        "2": 48486,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d2af429c-CRH2E_front_side.005_front",
+      "image": "d2af429c-CRH2E_front_side.005_front.jpeg",
+      "mask": "d2af429c-CRH2E_front_side.005_front.png",
+      "pixels": {
+        "0": 705687,
+        "1": 339282,
+        "2": 49152,
+        "3": 999
+      }
+    },
+    {
+      "stem": "d2d08a68-CR200J-B_34_FrontSide_front",
+      "image": "d2d08a68-CR200J-B_34_FrontSide_front.jpg",
+      "mask": "d2d08a68-CR200J-B_34_FrontSide_front.png",
+      "pixels": {
+        "0": 814118,
+        "1": 219194,
+        "2": 41693,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d340918f-CR400BF-J-0003-07-FrontSide_front",
+      "image": "d340918f-CR400BF-J-0003-07-FrontSide_front.jpeg",
+      "mask": "d340918f-CR400BF-J-0003-07-FrontSide_front.png",
+      "pixels": {
+        "0": 655948,
+        "1": 373828,
+        "2": 36137,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "d3538806-CRH380G_04-Side_Front_front",
+      "image": "d3538806-CRH380G_04-Side_Front_front.jpg",
+      "mask": "d3538806-CRH380G_04-Side_Front_front.png",
+      "pixels": {
+        "0": 1022485,
+        "1": 238096,
+        "2": 37950,
+        "3": 709
+      }
+    },
+    {
+      "stem": "d37ef0a7-CRH2C_front_side.009_front",
+      "image": "d37ef0a7-CRH2C_front_side.009_front.jpeg",
+      "mask": "d37ef0a7-CRH2C_front_side.009_front.png",
+      "pixels": {
+        "0": 672411,
+        "1": 334804,
+        "2": 64262,
+        "3": 963
+      }
+    },
+    {
+      "stem": "d380500e-CRH1E_5-Side_Front_front",
+      "image": "d380500e-CRH1E_5-Side_Front_front.jpg",
+      "mask": "d380500e-CRH1E_5-Side_Front_front.png",
+      "pixels": {
+        "0": 918510,
+        "1": 215157,
+        "2": 31012,
+        "3": 641
+      }
+    },
+    {
+      "stem": "d389d69f-CRH3A_02-Side_Front_front",
+      "image": "d389d69f-CRH3A_02-Side_Front_front.jpg",
+      "mask": "d389d69f-CRH3A_02-Side_Front_front.png",
+      "pixels": {
+        "0": 1006572,
+        "1": 318085,
+        "2": 30860,
+        "3": 963
+      }
+    },
+    {
+      "stem": "d41f3360-KDZ1A_22_FrontSide_front",
+      "image": "d41f3360-KDZ1A_22_FrontSide_front.jpg",
+      "mask": "d41f3360-KDZ1A_22_FrontSide_front.png",
+      "pixels": {
+        "0": 876550,
+        "1": 233380,
+        "2": 78475,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d4b9a05a-CRH380AJ_front_side.003_front",
+      "image": "d4b9a05a-CRH380AJ_front_side.003_front.jpeg",
+      "mask": "d4b9a05a-CRH380AJ_front_side.003_front.png",
+      "pixels": {
+        "0": 880598,
+        "1": 320722,
+        "2": 51597,
+        "3": 963
+      }
+    },
+    {
+      "stem": "d4e82840-NDJ3_-_02_-_FrontSide_front",
+      "image": "d4e82840-NDJ3_-_02_-_FrontSide_front.jpg",
+      "mask": "d4e82840-NDJ3_-_02_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1287746,
+        "1": 235301,
+        "2": 39038,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d51c7508-CRH1B_88-Side_Front_front",
+      "image": "d51c7508-CRH1B_88-Side_Front_front.jpg",
+      "mask": "d51c7508-CRH1B_88-Side_Front_front.png",
+      "pixels": {
+        "0": 957969,
+        "1": 199807,
+        "2": 34983,
+        "3": 641
+      }
+    },
+    {
+      "stem": "d5887d1d-CRH380AL_front_side.008_front",
+      "image": "d5887d1d-CRH380AL_front_side.008_front.jpeg",
+      "mask": "d5887d1d-CRH380AL_front_side.008_front.png",
+      "pixels": {
+        "0": 865999,
+        "1": 342758,
+        "2": 56004,
+        "3": 999
+      }
+    },
+    {
+      "stem": "d6156031-DDJ1_04_Front_Side_front",
+      "image": "d6156031-DDJ1_04_Front_Side_front.jpg",
+      "mask": "d6156031-DDJ1_04_Front_Side_front.png",
+      "pixels": {
+        "0": 1825014,
+        "1": 249094,
+        "2": 27977,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d6ac0554-CRH380AM_front_side.002_front",
+      "image": "d6ac0554-CRH380AM_front_side.002_front.jpeg",
+      "mask": "d6ac0554-CRH380AM_front_side.002_front.png",
+      "pixels": {
+        "0": 688035,
+        "1": 345960,
+        "2": 47166,
+        "3": 999
+      }
+    },
+    {
+      "stem": "d708f4ac-C400BF-K-0001-01-FrontSide.002_front",
+      "image": "d708f4ac-C400BF-K-0001-01-FrontSide.002_front.jpeg",
+      "mask": "d708f4ac-C400BF-K-0001-01-FrontSide.002_front.png",
+      "pixels": {
+        "0": 794731,
+        "1": 374898,
+        "2": 38844,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "d73c3e3b-CR400BF_18_FrontSide_front",
+      "image": "d73c3e3b-CR400BF_18_FrontSide_front.jpg",
+      "mask": "d73c3e3b-CR400BF_18_FrontSide_front.png",
+      "pixels": {
+        "0": 1262391,
+        "1": 204412,
+        "2": 35084,
+        "3": 641
+      }
+    },
+    {
+      "stem": "d7cd1123-CR200J_D_11_FrontSide_front",
+      "image": "d7cd1123-CR200J_D_11_FrontSide_front.jpg",
+      "mask": "d7cd1123-CR200J_D_11_FrontSide_front.png",
+      "pixels": {
+        "0": 1387720,
+        "1": 205818,
+        "2": 20413,
+        "3": 641
+      }
+    },
+    {
+      "stem": "d855c79a-CRH2_9-Side_Front_front",
+      "image": "d855c79a-CRH2_9-Side_Front_front.jpg",
+      "mask": "d855c79a-CRH2_9-Side_Front_front.png",
+      "pixels": {
+        "0": 937924,
+        "1": 193819,
+        "2": 45862,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d8a622af-CR200J-B_25_FrontSide_front",
+      "image": "d8a622af-CR200J-B_25_FrontSide_front.jpg",
+      "mask": "d8a622af-CR200J-B_25_FrontSide_front.png",
+      "pixels": {
+        "0": 820264,
+        "1": 234570,
+        "2": 25571,
+        "3": 675
+      }
+    },
+    {
+      "stem": "d9297654-C400BF-K-0001-01-FrontSide.009_front",
+      "image": "d9297654-C400BF-K-0001-01-FrontSide.009_front.jpeg",
+      "mask": "d9297654-C400BF-K-0001-01-FrontSide.009_front.png",
+      "pixels": {
+        "0": 646603,
+        "1": 376994,
+        "2": 35836,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "d94dc343-CRH380B0_01-Side_Front_front",
+      "image": "d94dc343-CRH380B0_01-Side_Front_front.jpg",
+      "mask": "d94dc343-CRH380B0_01-Side_Front_front.png",
+      "pixels": {
+        "0": 1001879,
+        "1": 224952,
+        "2": 45780,
+        "3": 709
+      }
+    },
+    {
+      "stem": "d9d1590d-CJ2-Side_Front_front",
+      "image": "d9d1590d-CJ2-Side_Front_front.jpg",
+      "mask": "d9d1590d-CJ2-Side_Front_front.png",
+      "pixels": {
+        "0": 827682,
+        "1": 324515,
+        "2": 26343,
+        "3": 820
+      }
+    },
+    {
+      "stem": "d9e6fa37-CR200J_D_10_FrontSide_front",
+      "image": "d9e6fa37-CR200J_D_10_FrontSide_front.jpg",
+      "mask": "d9e6fa37-CR200J_D_10_FrontSide_front.png",
+      "pixels": {
+        "0": 1308252,
+        "1": 192953,
+        "2": 33322,
+        "3": 641
+      }
+    },
+    {
+      "stem": "da649cfc-CRH380AM_front_side.007_front",
+      "image": "da649cfc-CRH380AM_front_side.007_front.jpeg",
+      "mask": "da649cfc-CRH380AM_front_side.007_front.png",
+      "pixels": {
+        "0": 1129670,
+        "1": 329643,
+        "2": 67924,
+        "3": 963
+      }
+    },
+    {
+      "stem": "daa63f82-CJ5_-_0505_-_07_-_FrontSide_front",
+      "image": "daa63f82-CJ5_-_0505_-_07_-_FrontSide_front.jpg",
+      "mask": "daa63f82-CJ5_-_0505_-_07_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1011107,
+        "1": 231570,
+        "2": 36448,
+        "3": 675
+      }
+    },
+    {
+      "stem": "daeb6e43-CRH2G_front_side.006_front",
+      "image": "daeb6e43-CRH2G_front_side.006_front.jpeg",
+      "mask": "daeb6e43-CRH2G_front_side.006_front.png",
+      "pixels": {
+        "0": 1003079,
+        "1": 334786,
+        "2": 36012,
+        "3": 963
+      }
+    },
+    {
+      "stem": "db046c62-CRH3A_10-Side_Front_front",
+      "image": "db046c62-CRH3A_10-Side_Front_front.jpg",
+      "mask": "db046c62-CRH3A_10-Side_Front_front.png",
+      "pixels": {
+        "0": 1047318,
+        "1": 262519,
+        "2": 38374,
+        "3": 709
+      }
+    },
+    {
+      "stem": "db8478ea-CR400AF-C-0209-Side_Front_front",
+      "image": "db8478ea-CR400AF-C-0209-Side_Front_front.jpg",
+      "mask": "db8478ea-CR400AF-C-0209-Side_Front_front.png",
+      "pixels": {
+        "0": 897758,
+        "1": 267081,
+        "2": 35412,
+        "3": 709
+      }
+    },
+    {
+      "stem": "dbefa1d4-CRH380AL_front_side.010_front",
+      "image": "dbefa1d4-CRH380AL_front_side.010_front.jpeg",
+      "mask": "dbefa1d4-CRH380AL_front_side.010_front.png",
+      "pixels": {
+        "0": 875878,
+        "1": 333102,
+        "2": 47177,
+        "3": 963
+      }
+    },
+    {
+      "stem": "dbf18bef-CRH380AL-0256-Side_Front_front",
+      "image": "dbf18bef-CRH380AL-0256-Side_Front_front.jpg",
+      "mask": "dbf18bef-CRH380AL-0256-Side_Front_front.png",
+      "pixels": {
+        "0": 900626,
+        "1": 333846,
+        "2": 22765,
+        "3": 963
+      }
+    },
+    {
+      "stem": "dc06f078-CR200J-B_24_FrontSide_front",
+      "image": "dc06f078-CR200J-B_24_FrontSide_front.jpg",
+      "mask": "dc06f078-CR200J-B_24_FrontSide_front.png",
+      "pixels": {
+        "0": 780241,
+        "1": 283631,
+        "2": 20819,
+        "3": 709
+      }
+    },
+    {
+      "stem": "de00156d-CR450AF_23_FrontSide_front",
+      "image": "de00156d-CR450AF_23_FrontSide_front.jpg",
+      "mask": "de00156d-CR450AF_23_FrontSide_front.png",
+      "pixels": {
+        "0": 1143281,
+        "1": 183002,
+        "2": 39604,
+        "3": 641
+      }
+    },
+    {
+      "stem": "de6ce488-CRH380G_10-Side_Front_front",
+      "image": "de6ce488-CRH380G_10-Side_Front_front.jpg",
+      "mask": "de6ce488-CRH380G_10-Side_Front_front.png",
+      "pixels": {
+        "0": 956482,
+        "1": 277533,
+        "2": 56740,
+        "3": 925
+      }
+    },
+    {
+      "stem": "de7a6d93-CRH2G_front_side.012_front",
+      "image": "de7a6d93-CRH2G_front_side.012_front.jpeg",
+      "mask": "de7a6d93-CRH2G_front_side.012_front.png",
+      "pixels": {
+        "0": 794653,
+        "1": 370215,
+        "2": 37253,
+        "3": 999
+      }
+    },
+    {
+      "stem": "dec74203-CJ1_-_10_-FrontSide_front",
+      "image": "dec74203-CJ1_-_10_-FrontSide_front.jpg",
+      "mask": "dec74203-CJ1_-_10_-FrontSide_front.png",
+      "pixels": {
+        "0": 965749,
+        "1": 245381,
+        "2": 31275,
+        "3": 675
+      }
+    },
+    {
+      "stem": "df393a23-CRH380AJ_front_side.010_front",
+      "image": "df393a23-CRH380AJ_front_side.010_front.jpeg",
+      "mask": "df393a23-CRH380AJ_front_side.010_front.png",
+      "pixels": {
+        "0": 711447,
+        "1": 320644,
+        "2": 42626,
+        "3": 963
+      }
+    },
+    {
+      "stem": "df39609d-CRH2C_front_side.001_front",
+      "image": "df39609d-CRH2C_front_side.001_front.jpeg",
+      "mask": "df39609d-CRH2C_front_side.001_front.png",
+      "pixels": {
+        "0": 845650,
+        "1": 341966,
+        "2": 53385,
+        "3": 999
+      }
+    },
+    {
+      "stem": "df883c6b-NZJ2-Side_Front_front",
+      "image": "df883c6b-NZJ2-Side_Front_front.jpg",
+      "mask": "df883c6b-NZJ2-Side_Front_front.png",
+      "pixels": {
+        "0": 1150720,
+        "1": 268463,
+        "2": 46748,
+        "3": 709
+      }
+    },
+    {
+      "stem": "dfff9f2f-CR400BF_5-Side_Front_front",
+      "image": "dfff9f2f-CR400BF_5-Side_Front_front.jpg",
+      "mask": "dfff9f2f-CR400BF_5-Side_Front_front.png",
+      "pixels": {
+        "0": 748815,
+        "1": 287273,
+        "2": 32292,
+        "3": 820
+      }
+    },
+    {
+      "stem": "e013e331-CRH2J-0205-Side_Front_front",
+      "image": "e013e331-CRH2J-0205-Side_Front_front.jpg",
+      "mask": "e013e331-CRH2J-0205-Side_Front_front.png",
+      "pixels": {
+        "0": 998767,
+        "1": 234420,
+        "2": 41584,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e01b87b7-CRH3C-06-FrontSide_front",
+      "image": "e01b87b7-CRH3C-06-FrontSide_front.jpeg",
+      "mask": "e01b87b7-CRH3C-06-FrontSide_front.png",
+      "pixels": {
+        "0": 827040,
+        "1": 369108,
+        "2": 57685,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "e099bfe4-KDZ1A_17_FrontSide_front",
+      "image": "e099bfe4-KDZ1A_17_FrontSide_front.jpg",
+      "mask": "e099bfe4-KDZ1A_17_FrontSide_front.png",
+      "pixels": {
+        "0": 858766,
+        "1": 209366,
+        "2": 80313,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e0ae7751-CR200J-B_26_FrontSide_front",
+      "image": "e0ae7751-CR200J-B_26_FrontSide_front.jpg",
+      "mask": "e0ae7751-CR200J-B_26_FrontSide_front.png",
+      "pixels": {
+        "0": 782676,
+        "1": 263405,
+        "2": 36450,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e0c08f1a-CJ5_-_0505_-_04_-_FrontSide_front",
+      "image": "e0c08f1a-CJ5_-_0505_-_04_-_FrontSide_front.jpg",
+      "mask": "e0c08f1a-CJ5_-_0505_-_04_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1008300,
+        "1": 245303,
+        "2": 30922,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e1214f48-CRH0307-0001-01-FrontSide_front",
+      "image": "e1214f48-CRH0307-0001-01-FrontSide_front.jpeg",
+      "mask": "e1214f48-CRH0307-0001-01-FrontSide_front.png",
+      "pixels": {
+        "0": 802409,
+        "1": 341879,
+        "2": 65393,
+        "3": 999
+      }
+    },
+    {
+      "stem": "e1331146-C300BF-K-0001-06-FrontSide_front",
+      "image": "e1331146-C300BF-K-0001-06-FrontSide_front.jpeg",
+      "mask": "e1331146-C300BF-K-0001-06-FrontSide_front.png",
+      "pixels": {
+        "0": 682102,
+        "1": 360166,
+        "2": 43213,
+        "3": 999
+      }
+    },
+    {
+      "stem": "e199935e-CR450AF_25_FrontSide_front",
+      "image": "e199935e-CR450AF_25_FrontSide_front.jpg",
+      "mask": "e199935e-CR450AF_25_FrontSide_front.png",
+      "pixels": {
+        "0": 1138525,
+        "1": 223517,
+        "2": 24483,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e1b067e9-CR400BF-J-0003-04-FrontSide_front",
+      "image": "e1b067e9-CR400BF-J-0003-04-FrontSide_front.jpeg",
+      "mask": "e1b067e9-CR400BF-J-0003-04-FrontSide_front.png",
+      "pixels": {
+        "0": 631182,
+        "1": 323733,
+        "2": 89526,
+        "3": 999
+      }
+    },
+    {
+      "stem": "e20f5e0e-CR200J-B_03_FrontSide_front",
+      "image": "e20f5e0e-CR200J-B_03_FrontSide_front.jpg",
+      "mask": "e20f5e0e-CR200J-B_03_FrontSide_front.png",
+      "pixels": {
+        "0": 915636,
+        "1": 231918,
+        "2": 33291,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e230d8b2-CRH380BL_01-Side_Front_front",
+      "image": "e230d8b2-CRH380BL_01-Side_Front_front.jpg",
+      "mask": "e230d8b2-CRH380BL_01-Side_Front_front.png",
+      "pixels": {
+        "0": 977756,
+        "1": 274357,
+        "2": 38747,
+        "3": 820
+      }
+    },
+    {
+      "stem": "e242cab0-CRH1E_NEW_1-Side_Front_front",
+      "image": "e242cab0-CRH1E_NEW_1-Side_Front_front.jpg",
+      "mask": "e242cab0-CRH1E_NEW_1-Side_Front_front.png",
+      "pixels": {
+        "0": 950347,
+        "1": 192172,
+        "2": 28726,
+        "3": 555
+      }
+    },
+    {
+      "stem": "e24edc48-CR450AF_31_FrontSide_front",
+      "image": "e24edc48-CR450AF_31_FrontSide_front.jpg",
+      "mask": "e24edc48-CR450AF_31_FrontSide_front.png",
+      "pixels": {
+        "0": 1209174,
+        "1": 172094,
+        "2": 48897,
+        "3": 555
+      }
+    },
+    {
+      "stem": "e25ab243-CRH380D_06-Side_Front_front",
+      "image": "e25ab243-CRH380D_06-Side_Front_front.jpg",
+      "mask": "e25ab243-CRH380D_06-Side_Front_front.png",
+      "pixels": {
+        "0": 985356,
+        "1": 242520,
+        "2": 50135,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e3955a06-CRH380AL_front_side.001_front",
+      "image": "e3955a06-CRH380AL_front_side.001_front.jpeg",
+      "mask": "e3955a06-CRH380AL_front_side.001_front.png",
+      "pixels": {
+        "0": 785573,
+        "1": 346366,
+        "2": 54018,
+        "3": 963
+      }
+    },
+    {
+      "stem": "e3a8b735-CRH2A_4-Side_Front_front",
+      "image": "e3a8b735-CRH2A_4-Side_Front_front.jpg",
+      "mask": "e3a8b735-CRH2A_4-Side_Front_front.png",
+      "pixels": {
+        "0": 937035,
+        "1": 202012,
+        "2": 35318,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e3b4afa2-CRH2E_front_side.009_front",
+      "image": "e3b4afa2-CRH2E_front_side.009_front.jpeg",
+      "mask": "e3b4afa2-CRH2E_front_side.009_front.png",
+      "pixels": {
+        "0": 764291,
+        "1": 355043,
+        "2": 48227,
+        "3": 999
+      }
+    },
+    {
+      "stem": "e3ca4a42-CRH2H_front_side.009_front",
+      "image": "e3ca4a42-CRH2H_front_side.009_front.jpeg",
+      "mask": "e3ca4a42-CRH2H_front_side.009_front.png",
+      "pixels": {
+        "0": 797216,
+        "1": 315678,
+        "2": 67663,
+        "3": 963
+      }
+    },
+    {
+      "stem": "e42fa9f6-CRH2A_9-Side_Front_front",
+      "image": "e42fa9f6-CRH2A_9-Side_Front_front.jpg",
+      "mask": "e42fa9f6-CRH2A_9-Side_Front_front.png",
+      "pixels": {
+        "0": 910721,
+        "1": 218493,
+        "2": 52677,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e457b93f-CRH2B_5-Side_Front_front",
+      "image": "e457b93f-CRH2B_5-Side_Front_front.jpg",
+      "mask": "e457b93f-CRH2B_5-Side_Front_front.png",
+      "pixels": {
+        "0": 931188,
+        "1": 204960,
+        "2": 37137,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e481c2ca-C300BF-K-0001-08-FrontSide_front",
+      "image": "e481c2ca-C300BF-K-0001-08-FrontSide_front.jpeg",
+      "mask": "e481c2ca-C300BF-K-0001-08-FrontSide_front.png",
+      "pixels": {
+        "0": 576573,
+        "1": 376401,
+        "2": 67579,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "e48ee024-CRH2_6-Side_Front_front",
+      "image": "e48ee024-CRH2_6-Side_Front_front.jpg",
+      "mask": "e48ee024-CRH2_6-Side_Front_front.png",
+      "pixels": {
+        "0": 948372,
+        "1": 206661,
+        "2": 34452,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e499ed21-CR400BF-C-5144-Side_Front_front",
+      "image": "e499ed21-CR400BF-C-5144-Side_Front_front.jpg",
+      "mask": "e499ed21-CR400BF-C-5144-Side_Front_front.png",
+      "pixels": {
+        "0": 905298,
+        "1": 257013,
+        "2": 32540,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e4a4650b-CR400BF_12_FrontSide_front",
+      "image": "e4a4650b-CR400BF_12_FrontSide_front.jpg",
+      "mask": "e4a4650b-CR400BF_12_FrontSide_front.png",
+      "pixels": {
+        "0": 1301822,
+        "1": 182256,
+        "2": 35217,
+        "3": 641
+      }
+    },
+    {
+      "stem": "e4d117a2-CR450AF_16_FrontSide_front",
+      "image": "e4d117a2-CR450AF_16_FrontSide_front.jpg",
+      "mask": "e4d117a2-CR450AF_16_FrontSide_front.png",
+      "pixels": {
+        "0": 1151819,
+        "1": 182427,
+        "2": 52279,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e4e6f468-CRH380B0_09-Side_Front_front",
+      "image": "e4e6f468-CRH380B0_09-Side_Front_front.jpg",
+      "mask": "e4e6f468-CRH380B0_09-Side_Front_front.png",
+      "pixels": {
+        "0": 1009618,
+        "1": 247214,
+        "2": 42668,
+        "3": 820
+      }
+    },
+    {
+      "stem": "e4fae8f4-CRH6F-4003-Side_Front_front",
+      "image": "e4fae8f4-CRH6F-4003-Side_Front_front.jpg",
+      "mask": "e4fae8f4-CRH6F-4003-Side_Front_front.png",
+      "pixels": {
+        "0": 882454,
+        "1": 274494,
+        "2": 35743,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e5135878-CRH380AJ_front_side.005_front",
+      "image": "e5135878-CRH380AJ_front_side.005_front.jpeg",
+      "mask": "e5135878-CRH380AJ_front_side.005_front.png",
+      "pixels": {
+        "0": 1087320,
+        "1": 341586,
+        "2": 58371,
+        "3": 963
+      }
+    },
+    {
+      "stem": "e54d135b-KDZ1A_08_FrontSide_front",
+      "image": "e54d135b-KDZ1A_08_FrontSide_front.jpg",
+      "mask": "e54d135b-KDZ1A_08_FrontSide_front.png",
+      "pixels": {
+        "0": 689805,
+        "1": 265893,
+        "2": 65273,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e5f822d2-CRH380AJ_front_side.016_front",
+      "image": "e5f822d2-CRH380AJ_front_side.016_front.jpeg",
+      "mask": "e5f822d2-CRH380AJ_front_side.016_front.png",
+      "pixels": {
+        "0": 813168,
+        "1": 302932,
+        "2": 64421,
+        "3": 999
+      }
+    },
+    {
+      "stem": "e61b2a71-CRH2H_front_side.007_front",
+      "image": "e61b2a71-CRH2H_front_side.007_front.jpeg",
+      "mask": "e61b2a71-CRH2H_front_side.007_front.png",
+      "pixels": {
+        "0": 815814,
+        "1": 309290,
+        "2": 45771,
+        "3": 925
+      }
+    },
+    {
+      "stem": "e65d9c62-CRH380AL_front_side.009_front",
+      "image": "e65d9c62-CRH380AL_front_side.009_front.jpeg",
+      "mask": "e65d9c62-CRH380AL_front_side.009_front.png",
+      "pixels": {
+        "0": 985754,
+        "1": 349303,
+        "2": 42060,
+        "3": 963
+      }
+    },
+    {
+      "stem": "e6641cdc-CRH380A_10-Side_Front_front",
+      "image": "e6641cdc-CRH380A_10-Side_Front_front.jpg",
+      "mask": "e6641cdc-CRH380A_10-Side_Front_front.png",
+      "pixels": {
+        "0": 774663,
+        "1": 250573,
+        "2": 38824,
+        "3": 820
+      }
+    },
+    {
+      "stem": "e68f7336-CRH2C_front_side.005_front",
+      "image": "e68f7336-CRH2C_front_side.005_front.jpeg",
+      "mask": "e68f7336-CRH2C_front_side.005_front.png",
+      "pixels": {
+        "0": 878445,
+        "1": 318409,
+        "2": 71183,
+        "3": 963
+      }
+    },
+    {
+      "stem": "e696b62d-DDJ2_07_Front_Side_front",
+      "image": "e696b62d-DDJ2_07_Front_Side_front.jpg",
+      "mask": "e696b62d-DDJ2_07_Front_Side_front.png",
+      "pixels": {
+        "0": 973057,
+        "1": 210172,
+        "2": 49456,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e6d644f6-CRH2_1-Side_Front_front",
+      "image": "e6d644f6-CRH2_1-Side_Front_front.jpg",
+      "mask": "e6d644f6-CRH2_1-Side_Front_front.png",
+      "pixels": {
+        "0": 936071,
+        "1": 208694,
+        "2": 31760,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e71f95d0-KDZ1A_15_FrontSide_front",
+      "image": "e71f95d0-KDZ1A_15_FrontSide_front.jpg",
+      "mask": "e71f95d0-KDZ1A_15_FrontSide_front.png",
+      "pixels": {
+        "0": 793836,
+        "1": 233039,
+        "2": 78336,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e8083083-CR400BF-J-0001-Side_Front_front",
+      "image": "e8083083-CR400BF-J-0001-Side_Front_front.jpg",
+      "mask": "e8083083-CR400BF-J-0001-Side_Front_front.png",
+      "pixels": {
+        "0": 906538,
+        "1": 256764,
+        "2": 32629,
+        "3": 709
+      }
+    },
+    {
+      "stem": "e843c1cc-CRH1E_2-Side_Front_front",
+      "image": "e843c1cc-CRH1E_2-Side_Front_front.jpg",
+      "mask": "e843c1cc-CRH1E_2-Side_Front_front.png",
+      "pixels": {
+        "0": 951772,
+        "1": 213891,
+        "2": 33576,
+        "3": 641
+      }
+    },
+    {
+      "stem": "e8884abf-CR200J-B_11_FrontSide_front",
+      "image": "e8884abf-CR200J-B_11_FrontSide_front.jpg",
+      "mask": "e8884abf-CR200J-B_11_FrontSide_front.png",
+      "pixels": {
+        "0": 970486,
+        "1": 225138,
+        "2": 33821,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e88cdf49-CRH3C-Side_Front_front",
+      "image": "e88cdf49-CRH3C-Side_Front_front.jpg",
+      "mask": "e88cdf49-CRH3C-Side_Front_front.png",
+      "pixels": {
+        "0": 811898,
+        "1": 291597,
+        "2": 63060,
+        "3": 925
+      }
+    },
+    {
+      "stem": "e8c67e93-DDJ1_06_Front_Side_front",
+      "image": "e8c67e93-DDJ1_06_Front_Side_front.jpg",
+      "mask": "e8c67e93-DDJ1_06_Front_Side_front.png",
+      "pixels": {
+        "0": 1768270,
+        "1": 234703,
+        "2": 38632,
+        "3": 675
+      }
+    },
+    {
+      "stem": "e8cad973-CRH5-001A-04-FrontSide_front",
+      "image": "e8cad973-CRH5-001A-04-FrontSide_front.jpeg",
+      "mask": "e8cad973-CRH5-001A-04-FrontSide_front.png",
+      "pixels": {
+        "0": 806709,
+        "1": 269806,
+        "2": 144918,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "ea59aeb2-KDZ1A_06_FrontSide_front",
+      "image": "ea59aeb2-KDZ1A_06_FrontSide_front.jpg",
+      "mask": "ea59aeb2-KDZ1A_06_FrontSide_front.png",
+      "pixels": {
+        "0": 876941,
+        "1": 271733,
+        "2": 57946,
+        "3": 820
+      }
+    },
+    {
+      "stem": "eac0687f-CR200J1-04-FrontSide_front",
+      "image": "eac0687f-CR200J1-04-FrontSide_front.jpeg",
+      "mask": "eac0687f-CR200J1-04-FrontSide_front.png",
+      "pixels": {
+        "0": 715781,
+        "1": 350984,
+        "2": 88668,
+        "3": 1247
+      }
+    },
+    {
+      "stem": "eae1659d-NZJ_10_Frontside_front",
+      "image": "eae1659d-NZJ_10_Frontside_front.jpg",
+      "mask": "eae1659d-NZJ_10_Frontside_front.png",
+      "pixels": {
+        "0": 951704,
+        "1": 192356,
+        "2": 48865,
+        "3": 475
+      }
+    },
+    {
+      "stem": "eaf95006-CR400BF_27_FrontSide_front",
+      "image": "eaf95006-CR400BF_27_FrontSide_front.jpg",
+      "mask": "eaf95006-CR400BF_27_FrontSide_front.png",
+      "pixels": {
+        "0": 1021132,
+        "1": 237206,
+        "2": 46442,
+        "3": 820
+      }
+    },
+    {
+      "stem": "eb6a8b70-CRH5-001A-09-FrontSide_front",
+      "image": "eb6a8b70-CRH5-001A-09-FrontSide_front.jpeg",
+      "mask": "eb6a8b70-CRH5-001A-09-FrontSide_front.png",
+      "pixels": {
+        "0": 824916,
+        "1": 329770,
+        "2": 91587,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "ec56eed2-CRH380G_05-Side_Front_front",
+      "image": "ec56eed2-CRH380G_05-Side_Front_front.jpg",
+      "mask": "ec56eed2-CRH380G_05-Side_Front_front.png",
+      "pixels": {
+        "0": 995725,
+        "1": 242109,
+        "2": 41257,
+        "3": 709
+      }
+    },
+    {
+      "stem": "ec772f85-CRH380BL_10-Side_Front_front",
+      "image": "ec772f85-CRH380BL_10-Side_Front_front.jpg",
+      "mask": "ec772f85-CRH380BL_10-Side_Front_front.png",
+      "pixels": {
+        "0": 989710,
+        "1": 280269,
+        "2": 58538,
+        "3": 963
+      }
+    },
+    {
+      "stem": "eca2dd71-CR200J_D_09_FrontSide_front",
+      "image": "eca2dd71-CR200J_D_09_FrontSide_front.jpg",
+      "mask": "eca2dd71-CR200J_D_09_FrontSide_front.png",
+      "pixels": {
+        "0": 1348441,
+        "1": 165591,
+        "2": 31541,
+        "3": 475
+      }
+    },
+    {
+      "stem": "ecc9f1d9-CRH6A-0618-Side_Front_front",
+      "image": "ecc9f1d9-CRH6A-0618-Side_Front_front.jpg",
+      "mask": "ecc9f1d9-CRH6A-0618-Side_Front_front.png",
+      "pixels": {
+        "0": 878613,
+        "1": 276132,
+        "2": 35786,
+        "3": 709
+      }
+    },
+    {
+      "stem": "ee4aed79-CR200J_D_02_FrontSide_front",
+      "image": "ee4aed79-CR200J_D_02_FrontSide_front.jpg",
+      "mask": "ee4aed79-CR200J_D_02_FrontSide_front.png",
+      "pixels": {
+        "0": 1504495,
+        "1": 164776,
+        "2": 49128,
+        "3": 641
+      }
+    },
+    {
+      "stem": "ee9e4240-C400BF-K-0001-01-FrontSide.008_front",
+      "image": "ee9e4240-C400BF-K-0001-01-FrontSide.008_front.jpeg",
+      "mask": "ee9e4240-C400BF-K-0001-01-FrontSide.008_front.png",
+      "pixels": {
+        "0": 700122,
+        "1": 335264,
+        "2": 59815,
+        "3": 999
+      }
+    },
+    {
+      "stem": "eefcba6e-CRH380B_03-Side_Front_front",
+      "image": "eefcba6e-CRH380B_03-Side_Front_front.jpg",
+      "mask": "eefcba6e-CRH380B_03-Side_Front_front.png",
+      "pixels": {
+        "0": 870931,
+        "1": 269093,
+        "2": 88091,
+        "3": 925
+      }
+    },
+    {
+      "stem": "ef602686-DJF1_02_Front_Side_front",
+      "image": "ef602686-DJF1_02_Front_Side_front.jpg",
+      "mask": "ef602686-DJF1_02_Front_Side_front.png",
+      "pixels": {
+        "0": 897078,
+        "1": 248332,
+        "2": 36515,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f01ac3db-CRH2B_2-Side_Front_front",
+      "image": "f01ac3db-CRH2B_2-Side_Front_front.jpg",
+      "mask": "f01ac3db-CRH2B_2-Side_Front_front.png",
+      "pixels": {
+        "0": 891948,
+        "1": 213350,
+        "2": 28027,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f02bdb68-CRH380CL-Side_Front_front",
+      "image": "f02bdb68-CRH380CL-Side_Front_front.jpg",
+      "mask": "f02bdb68-CRH380CL-Side_Front_front.png",
+      "pixels": {
+        "0": 848747,
+        "1": 238566,
+        "2": 69627,
+        "3": 820
+      }
+    },
+    {
+      "stem": "f1225368-CRH2B-Side_Front_front",
+      "image": "f1225368-CRH2B-Side_Front_front.jpg",
+      "mask": "f1225368-CRH2B-Side_Front_front.png",
+      "pixels": {
+        "0": 904191,
+        "1": 272989,
+        "2": 47695,
+        "3": 925
+      }
+    },
+    {
+      "stem": "f16eb637-CJ1_-_12_-FrontSide_front",
+      "image": "f16eb637-CJ1_-_12_-FrontSide_front.jpg",
+      "mask": "f16eb637-CJ1_-_12_-FrontSide_front.png",
+      "pixels": {
+        "0": 982894,
+        "1": 230948,
+        "2": 32917,
+        "3": 641
+      }
+    },
+    {
+      "stem": "f1e09495-CRH380BL_06-Side_Front_front",
+      "image": "f1e09495-CRH380BL_06-Side_Front_front.jpg",
+      "mask": "f1e09495-CRH380BL_06-Side_Front_front.png",
+      "pixels": {
+        "0": 1007525,
+        "1": 231088,
+        "2": 31872,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f25e2195-CR200J-B_09_FrontSide_front",
+      "image": "f25e2195-CR200J-B_09_FrontSide_front.jpg",
+      "mask": "f25e2195-CR200J-B_09_FrontSide_front.png",
+      "pixels": {
+        "0": 848938,
+        "1": 234187,
+        "2": 34000,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f2740b72-CRH380A_1-Side_Front_front",
+      "image": "f2740b72-CRH380A_1-Side_Front_front.jpg",
+      "mask": "f2740b72-CRH380A_1-Side_Front_front.png",
+      "pixels": {
+        "0": 773953,
+        "1": 253030,
+        "2": 37077,
+        "3": 820
+      }
+    },
+    {
+      "stem": "f2b7fbcd-CR200J-B_30_FrontSide_front",
+      "image": "f2b7fbcd-CR200J-B_30_FrontSide_front.jpg",
+      "mask": "f2b7fbcd-CR200J-B_30_FrontSide_front.png",
+      "pixels": {
+        "0": 809102,
+        "1": 240601,
+        "2": 28542,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f2ef36a4-CRH6F-A-0442-Side_Front_front",
+      "image": "f2ef36a4-CRH6F-A-0442-Side_Front_front.jpg",
+      "mask": "f2ef36a4-CRH6F-A-0442-Side_Front_front.png",
+      "pixels": {
+        "0": 879572,
+        "1": 274938,
+        "2": 34941,
+        "3": 709
+      }
+    },
+    {
+      "stem": "f3330b3f-CRH2G_front_side.004_front",
+      "image": "f3330b3f-CRH2G_front_side.004_front.jpeg",
+      "mask": "f3330b3f-CRH2G_front_side.004_front.png",
+      "pixels": {
+        "0": 744097,
+        "1": 339174,
+        "2": 49730,
+        "3": 999
+      }
+    },
+    {
+      "stem": "f358c7ee-CR200J3-Side_Front_front",
+      "image": "f358c7ee-CR200J3-Side_Front_front.jpg",
+      "mask": "f358c7ee-CR200J3-Side_Front_front.png",
+      "pixels": {
+        "0": 921905,
+        "1": 260308,
+        "2": 36466,
+        "3": 641
+      }
+    },
+    {
+      "stem": "f38fad77-CRH5E-Side_Front_front",
+      "image": "f38fad77-CRH5E-Side_Front_front.jpg",
+      "mask": "f38fad77-CRH5E-Side_Front_front.png",
+      "pixels": {
+        "0": 826797,
+        "1": 296180,
+        "2": 38178,
+        "3": 925
+      }
+    },
+    {
+      "stem": "f5640b9d-CJ5-0506-Side_Front_front",
+      "image": "f5640b9d-CJ5-0506-Side_Front_front.jpg",
+      "mask": "f5640b9d-CJ5-0506-Side_Front_front.png",
+      "pixels": {
+        "0": 786859,
+        "1": 271511,
+        "2": 60665,
+        "3": 925
+      }
+    },
+    {
+      "stem": "f5dce704-CRH380AJ_front_side.002_front",
+      "image": "f5dce704-CRH380AJ_front_side.002_front.jpeg",
+      "mask": "f5dce704-CRH380AJ_front_side.002_front.png",
+      "pixels": {
+        "0": 877427,
+        "1": 328568,
+        "2": 38282,
+        "3": 963
+      }
+    },
+    {
+      "stem": "f6448dc5-CRH380BL_09-Side_Front_front",
+      "image": "f6448dc5-CRH380BL_09-Side_Front_front.jpg",
+      "mask": "f6448dc5-CRH380BL_09-Side_Front_front.png",
+      "pixels": {
+        "0": 1028086,
+        "1": 249086,
+        "2": 41879,
+        "3": 709
+      }
+    },
+    {
+      "stem": "f6b1dd73-CRH1B_3-Side_Front_front",
+      "image": "f6b1dd73-CRH1B_3-Side_Front_front.jpg",
+      "mask": "f6b1dd73-CRH1B_3-Side_Front_front.png",
+      "pixels": {
+        "0": 887348,
+        "1": 190219,
+        "2": 44992,
+        "3": 641
+      }
+    },
+    {
+      "stem": "f6ec845a-CRH2J_front_side.008_front",
+      "image": "f6ec845a-CRH2J_front_side.008_front.jpeg",
+      "mask": "f6ec845a-CRH2J_front_side.008_front.png",
+      "pixels": {
+        "0": 931649,
+        "1": 308367,
+        "2": 52861,
+        "3": 963
+      }
+    },
+    {
+      "stem": "f725a473-CR200J-B_04_FrontSide_front",
+      "image": "f725a473-CR200J-B_04_FrontSide_front.jpg",
+      "mask": "f725a473-CR200J-B_04_FrontSide_front.png",
+      "pixels": {
+        "0": 904398,
+        "1": 287902,
+        "2": 35977,
+        "3": 820
+      }
+    },
+    {
+      "stem": "f755fdf2-CRH2H_front_side.021_front",
+      "image": "f755fdf2-CRH2H_front_side.021_front.jpeg",
+      "mask": "f755fdf2-CRH2H_front_side.021_front.png",
+      "pixels": {
+        "0": 686419,
+        "1": 318304,
+        "2": 44074,
+        "3": 963
+      }
+    },
+    {
+      "stem": "f7567cf2-CR200J-B_43_FrontSide_front",
+      "image": "f7567cf2-CR200J-B_43_FrontSide_front.jpg",
+      "mask": "f7567cf2-CR200J-B_43_FrontSide_front.png",
+      "pixels": {
+        "0": 791739,
+        "1": 207770,
+        "2": 87342,
+        "3": 709
+      }
+    },
+    {
+      "stem": "f7a58763-CRH2C_front_side.003_front",
+      "image": "f7a58763-CRH2C_front_side.003_front.jpeg",
+      "mask": "f7a58763-CRH2C_front_side.003_front.png",
+      "pixels": {
+        "0": 880312,
+        "1": 327399,
+        "2": 50606,
+        "3": 963
+      }
+    },
+    {
+      "stem": "f7d989a9-CR400BF-0507-Side_Front_front",
+      "image": "f7d989a9-CR400BF-0507-Side_Front_front.jpg",
+      "mask": "f7d989a9-CR400BF-0507-Side_Front_front.png",
+      "pixels": {
+        "0": 931582,
+        "1": 254178,
+        "2": 23165,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f818b30d-CRH380AJ_front_side.020_front",
+      "image": "f818b30d-CRH380AJ_front_side.020_front.jpeg",
+      "mask": "f818b30d-CRH380AJ_front_side.020_front.png",
+      "pixels": {
+        "0": 804318,
+        "1": 328837,
+        "2": 43082,
+        "3": 963
+      }
+    },
+    {
+      "stem": "f846c3cf-CR200J-B_23_FrontSide_front",
+      "image": "f846c3cf-CR200J-B_23_FrontSide_front.jpg",
+      "mask": "f846c3cf-CR200J-B_23_FrontSide_front.png",
+      "pixels": {
+        "0": 783781,
+        "1": 272776,
+        "2": 34503,
+        "3": 820
+      }
+    },
+    {
+      "stem": "f89dcc52-CR450AF_17_FrontSide_front",
+      "image": "f89dcc52-CR450AF_17_FrontSide_front.jpg",
+      "mask": "f89dcc52-CR450AF_17_FrontSide_front.png",
+      "pixels": {
+        "0": 1151286,
+        "1": 165468,
+        "2": 57837,
+        "3": 641
+      }
+    },
+    {
+      "stem": "f90b1dd0-C400BF-K-0001-01-FrontSide.001_front",
+      "image": "f90b1dd0-C400BF-K-0001-01-FrontSide.001_front.jpeg",
+      "mask": "f90b1dd0-C400BF-K-0001-01-FrontSide.001_front.png",
+      "pixels": {
+        "0": 603621,
+        "1": 326632,
+        "2": 55904,
+        "3": 963
+      }
+    },
+    {
+      "stem": "f970f14d-CR450AF_29_FrontSide_front",
+      "image": "f970f14d-CR450AF_29_FrontSide_front.jpg",
+      "mask": "f970f14d-CR450AF_29_FrontSide_front.png",
+      "pixels": {
+        "0": 1172012,
+        "1": 194602,
+        "2": 43847,
+        "3": 675
+      }
+    },
+    {
+      "stem": "f97c2b6e-CRH380G_09-Side_Front_front",
+      "image": "f97c2b6e-CRH380G_09-Side_Front_front.jpg",
+      "mask": "f97c2b6e-CRH380G_09-Side_Front_front.png",
+      "pixels": {
+        "0": 994025,
+        "1": 269918,
+        "2": 54997,
+        "3": 820
+      }
+    },
+    {
+      "stem": "f9d43a75-CR400BF-J-0003-06-FrontSide_front",
+      "image": "f9d43a75-CR400BF-J-0003-06-FrontSide_front.jpeg",
+      "mask": "f9d43a75-CR400BF-J-0003-06-FrontSide_front.png",
+      "pixels": {
+        "0": 705352,
+        "1": 345943,
+        "2": 64298,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "f9f2436e-KDZ1A-Side_Front_front",
+      "image": "f9f2436e-KDZ1A-Side_Front_front.jpg",
+      "mask": "f9f2436e-KDZ1A-Side_Front_front.png",
+      "pixels": {
+        "0": 869396,
+        "1": 253468,
+        "2": 75227,
+        "3": 709
+      }
+    },
+    {
+      "stem": "fb32fca6-CR200J-Side_Front_front",
+      "image": "fb32fca6-CR200J-Side_Front_front.jpg",
+      "mask": "fb32fca6-CR200J-Side_Front_front.png",
+      "pixels": {
+        "0": 941958,
+        "1": 260249,
+        "2": 35912,
+        "3": 641
+      }
+    },
+    {
+      "stem": "fb48707a-CJ5_-_0505_-_06_-_FrontSide_front",
+      "image": "fb48707a-CJ5_-_0505_-_06_-_FrontSide_front.jpg",
+      "mask": "fb48707a-CJ5_-_0505_-_06_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1098126,
+        "1": 230580,
+        "2": 38979,
+        "3": 675
+      }
+    },
+    {
+      "stem": "fb7ac7ca-C400BF-K-0001-01-FrontSide.003_front",
+      "image": "fb7ac7ca-C400BF-K-0001-01-FrontSide.003_front.jpeg",
+      "mask": "fb7ac7ca-C400BF-K-0001-01-FrontSide.003_front.png",
+      "pixels": {
+        "0": 575998,
+        "1": 354542,
+        "2": 41541,
+        "3": 999
+      }
+    },
+    {
+      "stem": "fbbd87b0-CRH6A_06_FrontSide_front",
+      "image": "fbbd87b0-CRH6A_06_FrontSide_front.jpg",
+      "mask": "fbbd87b0-CRH6A_06_FrontSide_front.png",
+      "pixels": {
+        "0": 1358811,
+        "1": 172992,
+        "2": 31012,
+        "3": 641
+      }
+    },
+    {
+      "stem": "fbef5b94-CR200J-B_10_FrontSide_front",
+      "image": "fbef5b94-CR200J-B_10_FrontSide_front.jpg",
+      "mask": "fbef5b94-CR200J-B_10_FrontSide_front.png",
+      "pixels": {
+        "0": 828341,
+        "1": 224019,
+        "2": 36685,
+        "3": 675
+      }
+    },
+    {
+      "stem": "fbfd9c89-CRH1E_NEW_7-Side_Front_front",
+      "image": "fbfd9c89-CRH1E_NEW_7-Side_Front_front.jpg",
+      "mask": "fbfd9c89-CRH1E_NEW_7-Side_Front_front.png",
+      "pixels": {
+        "0": 938557,
+        "1": 189109,
+        "2": 31699,
+        "3": 555
+      }
+    },
+    {
+      "stem": "fc04f4f4-CJ2_-_08_-_FrontSide_front",
+      "image": "fc04f4f4-CJ2_-_08_-_FrontSide_front.png",
+      "mask": "fc04f4f4-CJ2_-_08_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1153138,
+        "1": 216507,
+        "2": 47720,
+        "3": 675
+      }
+    },
+    {
+      "stem": "fc28c831-CRH3A_06-Side_Front_front",
+      "image": "fc28c831-CRH3A_06-Side_Front_front.jpg",
+      "mask": "fc28c831-CRH3A_06-Side_Front_front.png",
+      "pixels": {
+        "0": 1165135,
+        "1": 227490,
+        "2": 34460,
+        "3": 675
+      }
+    },
+    {
+      "stem": "fc4ce755-CRH0307-0001-03-FrontSide_front",
+      "image": "fc4ce755-CRH0307-0001-03-FrontSide_front.jpeg",
+      "mask": "fc4ce755-CRH0307-0001-03-FrontSide_front.png",
+      "pixels": {
+        "0": 774181,
+        "1": 378101,
+        "2": 43231,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "fc614ac2-CRH380BG-Side_Front_front",
+      "image": "fc614ac2-CRH380BG-Side_Front_front.jpg",
+      "mask": "fc614ac2-CRH380BG-Side_Front_front.png",
+      "pixels": {
+        "0": 813504,
+        "1": 310318,
+        "2": 64295,
+        "3": 963
+      }
+    },
+    {
+      "stem": "fccd4809-CR400BF_6-Side_Front_front",
+      "image": "fccd4809-CR400BF_6-Side_Front_front.jpg",
+      "mask": "fccd4809-CR400BF_6-Side_Front_front.png",
+      "pixels": {
+        "0": 747388,
+        "1": 286261,
+        "2": 34731,
+        "3": 820
+      }
+    },
+    {
+      "stem": "fcec73b9-CR300AF-0001-Side_Front_front",
+      "image": "fcec73b9-CR300AF-0001-Side_Front_front.jpg",
+      "mask": "fcec73b9-CR300AF-0001-Side_Front_front.png",
+      "pixels": {
+        "0": 898484,
+        "1": 253979,
+        "2": 24028,
+        "3": 709
+      }
+    },
+    {
+      "stem": "fd1ca7c1-CRH5-001A-06-FrontSide_front",
+      "image": "fd1ca7c1-CRH5-001A-06-FrontSide_front.jpeg",
+      "mask": "fd1ca7c1-CRH5-001A-06-FrontSide_front.png",
+      "pixels": {
+        "0": 828540,
+        "1": 349341,
+        "2": 71632,
+        "3": 1127
+      }
+    },
+    {
+      "stem": "fd6666fb-CRH380CL_02-Side_Front_front",
+      "image": "fd6666fb-CRH380CL_02-Side_Front_front.jpg",
+      "mask": "fd6666fb-CRH380CL_02-Side_Front_front.png",
+      "pixels": {
+        "0": 1001225,
+        "1": 194631,
+        "2": 79995,
+        "3": 709
+      }
+    },
+    {
+      "stem": "fdeddb7c-CR450AF_05_FrontSide_front",
+      "image": "fdeddb7c-CR450AF_05_FrontSide_front.jpg",
+      "mask": "fdeddb7c-CR450AF_05_FrontSide_front.png",
+      "pixels": {
+        "0": 1069074,
+        "1": 217939,
+        "2": 27704,
+        "3": 675
+      }
+    },
+    {
+      "stem": "fdf7f50f-CRH380A0-Side_Front_front",
+      "image": "fdf7f50f-CRH380A0-Side_Front_front.jpg",
+      "mask": "fdf7f50f-CRH380A0-Side_Front_front.png",
+      "pixels": {
+        "0": 922597,
+        "1": 291137,
+        "2": 44621,
+        "3": 925
+      }
+    },
+    {
+      "stem": "fea8ad4a-CR300AF-0003_-_04_-_FrontSide_front",
+      "image": "fea8ad4a-CR300AF-0003_-_04_-_FrontSide_front.jpg",
+      "mask": "fea8ad4a-CR300AF-0003_-_04_-_FrontSide_front.png",
+      "pixels": {
+        "0": 1105009,
+        "1": 209740,
+        "2": 37816,
+        "3": 675
+      }
+    },
+    {
+      "stem": "ff8a8023-CRH2C_front_side.010_front",
+      "image": "ff8a8023-CRH2C_front_side.010_front.jpeg",
+      "mask": "ff8a8023-CRH2C_front_side.010_front.png",
+      "pixels": {
+        "0": 744221,
+        "1": 331066,
+        "2": 55590,
+        "3": 963
+      }
+    },
+    {
+      "stem": "ff9e9bf2-C300BF-K-0001-Side_Front_front",
+      "image": "ff9e9bf2-C300BF-K-0001-Side_Front_front.jpg",
+      "mask": "ff9e9bf2-C300BF-K-0001-Side_Front_front.png",
+      "pixels": {
+        "0": 909054,
+        "1": 238173,
+        "2": 36824,
+        "3": 709
+      }
+    },
+    {
+      "stem": "ff9ec71b-CR400BF-Z-0524-Side_Front_front",
+      "image": "ff9ec71b-CR400BF-Z-0524-Side_Front_front.jpg",
+      "mask": "ff9ec71b-CR400BF-Z-0524-Side_Front_front.png",
+      "pixels": {
+        "0": 878150,
+        "1": 256339,
+        "2": 34442,
+        "3": 709
+      }
+    }
+  ]
+}

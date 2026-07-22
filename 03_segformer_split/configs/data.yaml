@@ -1,0 +1,42 @@
+# data paths (raw is read-only reference; processed is generated)
+raw:
+  front_dir: ../01_data/prepared_front
+  side_dir: ../01_data/prepared_side
+
+processed_root: ./data/processed
+metadata_csv: ./data/processed/metadata.csv
+splits_dir: ./data/splits
+
+segmentation_channels:
+  - body
+  - windshield
+  - bogie
+  - door
+
+view_task_defaults:
+  front:
+    body: true
+    windshield: true
+    bogie: false
+    door: false
+    nose_tip: true
+  side:
+    body: true
+    windshield: true
+    bogie: true
+    door: true
+    nose_tip: false
+
+# class ids in original exclusive masks
+front_class_ids:
+  body: 1
+  windshield: 2
+  nose_tip: 3
+
+side_class_ids:
+  body: 1
+  windshield: 2
+  bogie: 3
+  door: 4
+
+seed: 42

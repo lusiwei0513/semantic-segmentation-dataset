@@ -1,0 +1,35 @@
+{
+  "weights": "F:\\大三下学期\\培养方案\\保研\\康国梁老师\\语义分割\\语义分割\\训练数据\\project13_split_labelme\\gpt标注训练正视图-seg_train\\outputs\\deeplab_resnet34_data_front_v2\\best.pt",
+  "num_vis": 20,
+  "letterbox_inverse": true,
+  "tta_flip": true,
+  "val_fg_miou_on_vis_subset": 0.7541019320487976,
+  "val_iou": {
+    "background": 0.9900655746459961,
+    "body": 0.9326779246330261,
+    "windshield": 0.8331780433654785,
+    "nose_tip": 0.4964495897293091
+  },
+  "stems": [
+    "front_de6ce488",
+    "front_f89dcc52",
+    "front_f7a58763",
+    "front_d9e6fa37",
+    "front_d5887d1d",
+    "front_c6a2a9f2",
+    "front_d2d08a68",
+    "front_f5dce704",
+    "front_c7488cdc",
+    "front_caf4bb10",
+    "front_e54d135b",
+    "front_c7401f30",
+    "front_ce7eae8d",
+    "front_f725a473",
+    "front_d9d1590d",
+    "front_fdf7f50f",
+    "front_c160cbda",
+    "front_c376fc3a",
+    "front_eca2dd71",
+    "front_e6641cdc"
+  ]
+}

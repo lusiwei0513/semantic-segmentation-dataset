@@ -1,0 +1,11 @@
+{
+  "label_to_id": {
+    "background": 0,
+    "body": 1,
+    "windshield": 2,
+    "nose_tip": 3
+  },
+  "paint_order": ["body", "windshield", "nose_tip"],
+  "nose_tip_radius_px": 16,
+  "note": "绘制顺序：先 body，再 windshield，最后 nose_tip。后绘制覆盖先绘制，因此车窗与车头尖点会挖空车身；未标注像素为 background=0。"
+}

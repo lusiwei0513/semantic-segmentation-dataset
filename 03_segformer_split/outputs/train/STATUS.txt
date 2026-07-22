@@ -1,0 +1,23 @@
+﻿SegFormer training STATUS — updated 2026-07-20 22:36:32
+
+GPU: YES — NVIDIA GeForce RTX 3050 4GB Laptop GPU, 100 %, 2162 MiB, 4096 MiB
+Python train process: RUNNING
+PID=22564 "F:\大三下学期\培养方案\保研\康国梁老师\语义分割\语义分割\训练数据\baselines_unet_deeplab\gpt标注训练正视图-seg_train\.venv\Scripts\python.exe" -u src\train.py --config configs\train_side.yaml --view side --fold 0
+PID=38352 "C:\Users\Lusiwei\AppData\Local\Programs\Python\Python311\python.exe" -u src\train.py --config configs\train_side.yaml --view side --fold 0
+
+Stage:
+- front_fold0: FINISHED (early stop epoch 79, best_official_mIoU=0.7989)
+  log: F:\大三下学期\培养方案\保研\康国梁老师\语义分割\语义分割\训练数据\segformer_b0_split\outputs\train\front_fold0\train.log
+- front test eval: DONE (outputs\eval\front_fold0_test\test_report.json ~22:34:58)
+- side_fold0: RUNNING NOW (epoch 0+, cuda)
+  log: F:\大三下学期\培养方案\保研\康国梁老师\语义分割\语义分割\训练数据\segformer_b0_split\outputs\train\side_fold0\train.log
+
+Why Cursor Terminal is empty:
+Training was started as a background process (not attached to a Cursor terminal panel).
+Progress is written to train.log files above — watch those, not the IDE terminal.
+
+Live watch (PowerShell):
+  Get-Content -Path 'F:\大三下学期\培养方案\保研\康国梁老师\语义分割\语义分割\训练数据\segformer_b0_split\outputs\train\side_fold0\train.log' -Wait -Tail 30 -Encoding UTF8
+
+Or open this STATUS.txt and the side train.log in an editor (they update on disk).
+NEXT: remind user 640 retrain + viz fix when side done

@@ -1,0 +1,32 @@
+# U-Net semantic segmentation — train front views
+# Classes: 0 background, 1 body, 2 windshield, 3 nose_tip
+
+data:
+  labelme_dir: ../front_images
+  prepared_dir: ../prepared_front
+  image_size: 512
+  nose_tip_radius: 16          # point -> disk radius (px, on original image)
+  val_ratio: 0.2
+  seed: 42
+
+model:
+  arch: Unet
+  encoder: resnet34            # or efficientnet-b0 / efficientnet-b3
+  encoder_weights: imagenet
+  num_classes: 4
+
+train:
+  epochs: 80
+  batch_size: 2                # RTX 3050 4GB: keep 2; raise if VRAM allows
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 0               # Windows 下建议 0，避免多进程启动过慢
+  amp: true
+  early_stop_patience: 20
+  class_weights: [0.5, 1.0, 2.0, 4.0]  # bg, body, windshield, nose_tip
+  dice_weight: 1.0
+  ce_weight: 1.0
+
+paths:
+  output_dir: outputs
+  run_name: unet_resnet34

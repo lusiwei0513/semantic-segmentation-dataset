@@ -1,0 +1,22 @@
+{
+  "num_masks": 189,
+  "num_images": 189,
+  "pixel_counts": {
+    "0": 176781796,
+    "1": 50274753,
+    "2": 8539281,
+    "3": 175987
+  },
+  "pixel_ratio": {
+    "0": 0.7498,
+    "1": 0.213235,
+    "2": 0.036218,
+    "3": 0.000746
+  },
+  "presence": {
+    "body": 189,
+    "windshield": 188,
+    "nose_tip": 185
+  },
+  "exclusive_single_channel": true
+}

@@ -1,0 +1,20 @@
+{
+  "weights": "outputs\\deeplab_resnet34_data_front_v2\\best.pt",
+  "config": "config_data_front_v2.yaml",
+  "mode": "seg",
+  "split": "test",
+  "image_size": 512,
+  "num": 38,
+  "miou": 0.7377035021781921,
+  "iou": {
+    "background": 0.9919589757919312,
+    "body": 0.9420161247253418,
+    "windshield": 0.8585987091064453,
+    "nose_tip": 0.4124956429004669
+  },
+  "ppt_picks_best_mid_worst": [
+    "front_de6ce488",
+    "front_e25ab243",
+    "front_d7cd1123"
+  ]
+}

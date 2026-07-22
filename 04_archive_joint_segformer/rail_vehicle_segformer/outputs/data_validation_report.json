@@ -1,0 +1,23 @@
+{
+  "n_samples": 378,
+  "n_front": 189,
+  "n_side": 189,
+  "n_vehicles": 189,
+  "valid_counts": {
+    "body": 378,
+    "windshield": 365,
+    "bogie": 189,
+    "door": 176,
+    "nose_tip": 189
+  },
+  "area_ratio_mean": {
+    "body": 0.3049263105892609,
+    "windshield": 0.020610090089223387,
+    "bogie": 0.02200431560986223,
+    "door": 0.013817723784421358
+  },
+  "n_errors": 0,
+  "n_warnings": 0,
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,23 @@
+{
+  "device": "cpu",
+  "losses": {
+    "front": {
+      "loss_body": 1.4295005798339844,
+      "loss_windshield": 1.6335070133209229,
+      "loss_bogie": 0.0,
+      "loss_door": 0.0,
+      "loss_nose_tip": 0.21300293505191803,
+      "loss_total": 3.169509172439575
+    },
+    "side": {
+      "loss_body": 1.1365265846252441,
+      "loss_windshield": 1.6874330043792725,
+      "loss_bogie": 1.8179428577423096,
+      "loss_door": 1.8746898174285889,
+      "loss_nose_tip": -0.0,
+      "loss_total": 6.516592025756836
+    }
+  },
+  "cuda_mem": {},
+  "status": "PASS"
+}

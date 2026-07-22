@@ -1,0 +1,20 @@
+{
+  "weights": "outputs_side\\unet_resnet34_data_side_tune\\best.pt",
+  "config": "config_data_side_unet_tune.yaml",
+  "split": "test",
+  "image_size": 384,
+  "num": 38,
+  "miou": 0.7122158408164978,
+  "iou": {
+    "background": 0.965380072593689,
+    "body": 0.9396569728851318,
+    "windshield": 0.41244256496429443,
+    "bogie": 0.7772557139396667,
+    "door": 0.7195082306861877
+  },
+  "ppt_picks_best_mid_worst": [
+    "side_f846c3cf",
+    "side_d41f3360",
+    "side_f38fad77"
+  ]
+}

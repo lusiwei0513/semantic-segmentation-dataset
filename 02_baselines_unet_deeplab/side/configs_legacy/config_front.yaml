@@ -1,0 +1,30 @@
+# PPT task — FRONT view (separate from seg_train/unet_resnet34)
+data:
+  mode: front
+  prepared_dir: data_front
+  image_size: 512
+  val_ratio: 0.2
+  seed: 42
+  class_names: [background, body, windshield, nose_tip]
+
+model:
+  arch: Unet
+  encoder: resnet34
+  encoder_weights: imagenet
+  num_classes: 4
+
+train:
+  epochs: 60
+  batch_size: 2
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 0
+  amp: true
+  early_stop_patience: 15
+  class_weights: [0.5, 1.0, 2.0, 4.0]
+  dice_weight: 1.0
+  ce_weight: 1.0
+
+paths:
+  output_dir: outputs_front
+  run_name: ppt_front_unet_resnet34

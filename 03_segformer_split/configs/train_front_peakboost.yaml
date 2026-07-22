@@ -1,0 +1,69 @@
+# 正视图：对齐 UNet-KP 的 tip 损失（peak-boost + soft-argmax L1）
+# 公平协议：fold_0、512x512、ellipse rx=24/ry=12、正侧分开
+# VRAM：bs=2 + AMP + grad_accum=2
+model:
+  name: segformer_b0_multitask
+  pretrained: ./pretrained/mit-b0
+  backbone: nvidia/mit-b0
+  segmentation_channels: [body, windshield, bogie, door]
+  keypoint_head: true
+  decoder_channels: 256
+  keypoint_out_stride: 4
+
+data:
+  view: front
+  root: ./data_front
+  metadata: ./data_front/metadata.csv
+  splits_dir: ./splits_front
+  front_size: [512, 512]
+  side_size: [384, 768]
+  resize_mode: letterbox
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  batch_size: 2
+  num_workers: 0
+
+loss:
+  bce_weight: 1.0
+  dice_weight: 1.0
+  loss_weights:
+    body: 1.0
+    windshield: 2.5
+    bogie: 0.0
+    door: 0.0
+    # 有 peak-boost 后勿再拉到 6；对齐 UNet heat_weight≈2，略留余量用 2.0
+    nose_tip: 2.0
+  pos_weights:
+    body: 1.0
+    windshield: 6.0
+    bogie: 1.0
+    door: 1.0
+  heatmap_sigma: 16
+  heat_peak_boost: 40.0      # 对齐 UNet heat_peak_boost
+  tip_coord_weight: 0.5      # 对齐 UNet tip_coord_weight（可选但推荐）
+  soft_argmax_temp: 0.1
+
+eval:
+  tip_ellipse_rx: 24
+  tip_ellipse_ry: 12
+
+optimizer:
+  name: adamw
+  backbone_lr: 5.0e-5
+  head_lr: 1.0e-4
+  weight_decay: 0.01
+
+scheduler:
+  name: cosine
+  warmup_epochs: 3
+
+training:
+  view: front
+  epochs: 80
+  amp: true
+  gradient_accumulation_steps: 2
+  freeze_backbone_epochs: 0
+  early_stopping_patience: 20
+  grad_clip_norm: 1.0
+  seed: 42
+  fold: 0

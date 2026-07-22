@@ -1,0 +1,5 @@
+颜色说明:
+body=蓝色, windshield=黄色, bogie=绿色, door=红色
+青色 X = 预测 nose_tip
+checkpoint=F:\大三下学期\培养方案\保研\康国梁老师\语义分割\语义分割\训练数据\04_archive_joint_segformer\experiments\joint_fold0_clean\checkpoints\best.pt
+split=val fold=0

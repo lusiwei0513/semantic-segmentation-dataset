@@ -1,0 +1,34 @@
+# Side-view training data prepared from side_images (189 LabelMe)
+# Classes: 0 background, 1 body, 2 windshield, 3 bogie, 4 door
+# Overlay: windshield / door / bogie overwrite body (body is carved out)
+
+data:
+  mode: side
+  prepared_dir: ../prepared_side
+  image_size: 384          # height; width = 768 (2x) for 4GB VRAM
+  val_ratio: 0.2
+  seed: 42
+  class_names: [background, body, windshield, bogie, door]
+
+model:
+  arch: Unet
+  encoder: resnet34
+  encoder_weights: imagenet
+  num_classes: 5
+
+train:
+  epochs: 80
+  batch_size: 1
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 0
+  amp: true
+  early_stop_patience: 15
+  # bg 降权；挡风玻璃/车门偏弱可再加大；评估 mIoU 默认不含 background
+  class_weights: [0.2, 1.0, 3.5, 2.5, 3.0]
+  dice_weight: 1.0
+  ce_weight: 1.0
+
+paths:
+  output_dir: outputs
+  run_name: unet_resnet34_side_all189

@@ -1,0 +1,40 @@
+# Front-view: 3-class UNet seg + Gaussian tip heatmap (keypoint)
+# Official 4-class mIoU: merge radius-16 circle from predicted tip
+
+data:
+  prepared_dir: ../prepared_front
+  labelme_dir: ../front_images
+  image_size: 512
+  val_ratio: 0.2
+  seed: 42
+  tip_sigma: 12.0
+  tip_radius_eval: 16
+
+model:
+  arch: Unet
+  encoder: resnet34
+  encoder_weights: imagenet
+  seg_classes: 3          # background, body, windshield
+  # output channels = seg_classes + 1 (heatmap)
+
+train:
+  epochs: 100
+  batch_size: 2
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 0
+  amp: true
+  early_stop_patience: 20
+  # seg classes: bg, body, windshield — bg 降权，挡风玻璃加权重
+  class_weights: [0.2, 1.0, 3.0]
+  dice_weight: 1.0
+  ce_weight: 1.0
+  # tip 是当前瓶颈：提高坐标损失，让 tip_mae 往 <8px 走
+  heat_weight: 1.0
+  heat_peak_boost: 100.0
+  tip_coord_weight: 0.08
+  soft_argmax_temp: 0.08
+
+paths:
+  output_dir: outputs
+  run_name: unet_resnet34_front_kp_v2

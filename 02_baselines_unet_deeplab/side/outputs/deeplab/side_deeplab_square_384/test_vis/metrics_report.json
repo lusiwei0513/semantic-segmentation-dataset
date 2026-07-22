@@ -1,0 +1,20 @@
+{
+  "weights": "outputs_side\\deeplab_resnet34_data_side_v2\\best.pt",
+  "config": "config_data_side_v2.yaml",
+  "split": "test",
+  "image_size": 384,
+  "num": 38,
+  "miou": 0.6718360185623169,
+  "iou": {
+    "background": 0.9612542986869812,
+    "body": 0.9278971552848816,
+    "windshield": 0.39125505089759827,
+    "bogie": 0.7376548647880554,
+    "door": 0.6305371522903442
+  },
+  "ppt_picks_best_mid_worst": [
+    "side_e88cdf49",
+    "side_e6641cdc",
+    "side_f38fad77"
+  ]
+}

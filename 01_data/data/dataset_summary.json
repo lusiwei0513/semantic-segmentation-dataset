@@ -1,0 +1,15 @@
+{
+  "num_samples": 378,
+  "num_front": 189,
+  "num_side": 189,
+  "num_pairs": 189,
+  "valid_counts": {
+    "valid_body": 378,
+    "valid_windshield": 365,
+    "valid_bogie": 189,
+    "valid_door": 177,
+    "valid_nose_tip": 189
+  },
+  "format": "teammate_binary_masks_plus_keypoints",
+  "seed": 42
+}

@@ -1,0 +1,17 @@
+{
+  "label_to_id": {
+    "background": 0,
+    "body": 1,
+    "windshield": 2,
+    "nose_tip": 3
+  },
+  "paint_order": [
+    "body",
+    "windshield",
+    "nose_tip"
+  ],
+  "nose_tip_shape": "horizontal_ellipse",
+  "nose_width_ratio": 0.08,
+  "nose_height_over_width": 0.5,
+  "note": "nose_tip 由标注点扩成水平椭圆（宽约车身宽度8%，高约为宽的一半），覆盖并挖空 body；非单像素。"
+}

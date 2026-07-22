@@ -1,0 +1,34 @@
+{
+  "view": "side",
+  "fold": 0,
+  "split": "val",
+  "n": 18,
+  "checkpoint": "F:\\大三下学期\\培养方案\\保研\\康国梁老师\\语义分割\\语义分割\\训练数据\\segformer_b0_split\\outputs\\train\\side_fold0\\checkpoints\\best.pt",
+  "test_official_miou": 0.8688129367375815,
+  "test_iou": {
+    "body": 0.9729953938060336,
+    "bogie": 0.9102496239874098,
+    "door": 0.8844515856574563,
+    "windshield": 0.6778236012905836
+  },
+  "stems": [
+    "side_c4785362",
+    "side_c6369d2c",
+    "side_cafe0864",
+    "side_cb071342",
+    "side_d12dc6b3",
+    "side_d340918f",
+    "side_d6ac0554",
+    "side_dbefa1d4",
+    "side_e013e331",
+    "side_e24edc48",
+    "side_e3a8b735",
+    "side_e42fa9f6",
+    "side_e457b93f",
+    "side_e499ed21",
+    "side_f16eb637",
+    "side_fbef5b94",
+    "side_fccd4809",
+    "side_fd6666fb"
+  ]
+}

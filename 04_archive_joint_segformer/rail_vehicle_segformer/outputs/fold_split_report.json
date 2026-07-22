@@ -1,0 +1,111 @@
+{
+  "n_splits": 5,
+  "seed": 42,
+  "folds": [
+    {
+      "fold": 0,
+      "n_train": 266,
+      "n_val": 36,
+      "n_test": 76,
+      "train_views": {
+        "front": 133,
+        "side": 133
+      },
+      "val_views": {
+        "front": 18,
+        "side": 18
+      },
+      "test_views": {
+        "front": 38,
+        "side": 38
+      },
+      "n_train_vehicles": 133,
+      "n_val_vehicles": 18,
+      "n_test_vehicles": 38
+    },
+    {
+      "fold": 1,
+      "n_train": 266,
+      "n_val": 36,
+      "n_test": 76,
+      "train_views": {
+        "front": 133,
+        "side": 133
+      },
+      "val_views": {
+        "front": 18,
+        "side": 18
+      },
+      "test_views": {
+        "front": 38,
+        "side": 38
+      },
+      "n_train_vehicles": 133,
+      "n_val_vehicles": 18,
+      "n_test_vehicles": 38
+    },
+    {
+      "fold": 2,
+      "n_train": 266,
+      "n_val": 36,
+      "n_test": 76,
+      "train_views": {
+        "front": 133,
+        "side": 133
+      },
+      "val_views": {
+        "front": 18,
+        "side": 18
+      },
+      "test_views": {
+        "front": 38,
+        "side": 38
+      },
+      "n_train_vehicles": 133,
+      "n_val_vehicles": 18,
+      "n_test_vehicles": 38
+    },
+    {
+      "fold": 3,
+      "n_train": 266,
+      "n_val": 36,
+      "n_test": 76,
+      "train_views": {
+        "front": 133,
+        "side": 133
+      },
+      "val_views": {
+        "front": 18,
+        "side": 18
+      },
+      "test_views": {
+        "front": 38,
+        "side": 38
+      },
+      "n_train_vehicles": 133,
+      "n_val_vehicles": 18,
+      "n_test_vehicles": 38
+    },
+    {
+      "fold": 4,
+      "n_train": 268,
+      "n_val": 36,
+      "n_test": 74,
+      "train_views": {
+        "front": 134,
+        "side": 134
+      },
+      "val_views": {
+        "front": 18,
+        "side": 18
+      },
+      "test_views": {
+        "front": 37,
+        "side": 37
+      },
+      "n_train_vehicles": 134,
+      "n_val_vehicles": 18,
+      "n_test_vehicles": 37
+    }
+  ]
+}

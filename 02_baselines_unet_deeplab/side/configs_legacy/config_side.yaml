@@ -1,0 +1,30 @@
+# PPT task — SIDE view (separate from seg_train)
+data:
+  mode: side
+  prepared_dir: data_side
+  image_size: 384          # height; width canvas = 768
+  val_ratio: 0.2
+  seed: 42
+  class_names: [background, body, windshield, bogie, door]
+
+model:
+  arch: Unet
+  encoder: resnet34
+  encoder_weights: imagenet
+  num_classes: 5
+
+train:
+  epochs: 60
+  batch_size: 1            # wide 384x768 on 4GB VRAM
+  lr: 1.0e-4
+  weight_decay: 1.0e-4
+  num_workers: 0
+  amp: true
+  early_stop_patience: 15
+  class_weights: [0.4, 1.0, 3.0, 2.5, 2.5]
+  dice_weight: 1.0
+  ce_weight: 1.0
+
+paths:
+  output_dir: outputs
+  run_name: ppt_side_unet_resnet34

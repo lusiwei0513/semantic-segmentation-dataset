@@ -1,0 +1,162 @@
+﻿view,stem,severity,reason
+side,c0210454-CJ1_-_06_-FrontSide_side,med,body 连通域过多 ncc=15
+side,c0595a09-C300BF-K-0001-05-FrontSide_side,med,body 连通域过多 ncc=52
+side,c114f990-CRH2_2-Side_Front_side,med,body 连通域过多 ncc=23
+side,c13e8906-DJF1_10_Front_Side_side,med,body 连通域过多 ncc=11
+side,c160cbda-KDZ1_05_FrontSide_side,med,body 连通域过多 ncc=12
+side,c200e5c1-CRH3C-08-FrontSide_side,med,body 连通域过多 ncc=71
+side,c243126c-CRH2E_front_side.008_side,med,body 连通域过多 ncc=7
+side,c376fc3a-CRH6A_01_FrontSide_side,med,body 连通域过多 ncc=27
+side,c41e5b42-CR200J-B_17_FrontSide_side,med,body 连通域过多 ncc=27
+side,c68fddff-CR200J2-JT001_08_FrontSide_2_side,med,body 连通域过多 ncc=11
+side,c6b5a504-CRH2A_8-Side_Front_side,med,body 连通域过多 ncc=5
+side,c7401f30-C400BF-K-0001-Side_Front_side,med,body 连通域过多 ncc=7
+side,c74e3aab-CR450AF_07_FrontSide_side,med,body 连通域过多 ncc=38
+side,c8b1a412-CR400BF_26_FrontSide_side,med,body 连通域过多 ncc=79
+side,c9b4ea66-CRH2J_front_side.009_side,med,body 连通域过多 ncc=28
+side,c9c00fa3-CR400BF-A-Side_Front_side,med,body 连通域过多 ncc=32
+side,caf4bb10-CRH0307-0001-04-FrontSide_side,med,body 连通域过多 ncc=19
+side,cbb298cd-DDJ2_09_Front_Side_side,med,body 连通域过多 ncc=6
+side,ce7eae8d-CRH380AJ_front_side.015_side,med,body 连通域过多 ncc=8
+side,ced3a81c-CRH2G_front_side.005_side,med,body 连通域过多 ncc=9
+side,cf0b141b-CR300AF-0003_-_05_-_FrontSide_side,med,body 连通域过多 ncc=12
+side,cf568667-CRH380AM_front_side.009_side,med,body 连通域过多 ncc=10
+side,cf68234d-CR450AF_32_FrontSide_side,med,body 连通域过多 ncc=5
+side,cffc54b0-CRH380CL_07-Side_Front_side,med,body 连通域过多 ncc=15
+side,d1768f23-CR450AF_18_FrontSide_side,med,body 连通域过多 ncc=11
+side,d1f80c59-DJF1_08_Front_Side_side,med,body 连通域过多 ncc=93
+side,d2af429c-CRH2E_front_side.005_side,med,body 连通域过多 ncc=23
+side,d2d08a68-CR200J-B_34_FrontSide_side,med,body 连通域过多 ncc=25
+side,d340918f-CR400BF-J-0003-07-FrontSide_side,med,body 连通域过多 ncc=10
+side,d3538806-CRH380G_04-Side_Front_side,med,body 连通域过多 ncc=13
+side,d4b9a05a-CRH380AJ_front_side.003_side,med,body 连通域过多 ncc=14
+side,d51c7508-CRH1B_88-Side_Front_side,med,body 连通域过多 ncc=14
+side,d5887d1d-CRH380AL_front_side.008_side,med,body 连通域过多 ncc=6
+side,d6ac0554-CRH380AM_front_side.002_side,med,body 连通域过多 ncc=5
+side,d708f4ac-C400BF-K-0001-01-FrontSide.002_side,med,body 连通域过多 ncc=9
+side,d7cd1123-CR200J_D_11_FrontSide_side,high,door 异常(线状/过小) n=152 h=1 w=152
+side,d9297654-C400BF-K-0001-01-FrontSide.009_side,med,body 连通域过多 ncc=15
+side,d94dc343-CRH380B0_01-Side_Front_side,med,body 连通域过多 ncc=10
+side,db046c62-CRH3A_10-Side_Front_side,med,body 连通域过多 ncc=5
+side,db8478ea-CR400AF-C-0209-Side_Front_side,med,body 连通域过多 ncc=13
+side,dbefa1d4-CRH380AL_front_side.010_side,med,body 连通域过多 ncc=6
+side,dbf18bef-CRH380AL-0256-Side_Front_side,med,body 连通域过多 ncc=14
+side,e013e331-CRH2J-0205-Side_Front_side,med,body 连通域过多 ncc=6
+side,e013e331-CRH2J-0205-Side_Front_side,high,door 异常(线状/过小) n=229 h=3 w=351
+side,e099bfe4-KDZ1A_17_FrontSide_side,med,body 连通域过多 ncc=27
+side,e1214f48-CRH0307-0001-01-FrontSide_side,med,body 连通域过多 ncc=26
+side,e1214f48-CRH0307-0001-01-FrontSide_side,high,door 异常(线状/过小) n=178 h=1 w=178
+side,e1331146-C300BF-K-0001-06-FrontSide_side,med,body 连通域过多 ncc=13
+side,e1331146-C300BF-K-0001-06-FrontSide_side,high,door 异常(线状/过小) n=365 h=20 w=3295
+side,e1331146-C300BF-K-0001-06-FrontSide_side,med,door 填充率极低 fill=0.006 n=365
+side,e199935e-CR450AF_25_FrontSide_side,med,body 连通域过多 ncc=8
+side,e199935e-CR450AF_25_FrontSide_side,high,door 异常(线状/过小) n=151 h=1 w=151
+side,e20f5e0e-CR200J-B_03_FrontSide_side,med,body 连通域过多 ncc=22
+side,e20f5e0e-CR200J-B_03_FrontSide_side,high,door 异常(线状/过小) n=139 h=1 w=139
+side,e230d8b2-CRH380BL_01-Side_Front_side,med,body 连通域过多 ncc=28
+side,e230d8b2-CRH380BL_01-Side_Front_side,high,door 异常(线状/过小) n=334 h=8 w=2577
+side,e242cab0-CRH1E_NEW_1-Side_Front_side,med,body 连通域过多 ncc=13
+side,e242cab0-CRH1E_NEW_1-Side_Front_side,high,door 异常(线状/过小) n=134 h=1 w=134
+side,e24edc48-CR450AF_31_FrontSide_side,med,body 连通域过多 ncc=42
+side,e24edc48-CR450AF_31_FrontSide_side,high,door 异常(线状/过小) n=132 h=1 w=132
+side,e25ab243-CRH380D_06-Side_Front_side,med,body 连通域过多 ncc=9
+side,e25ab243-CRH380D_06-Side_Front_side,high,door 异常(线状/过小) n=164 h=1 w=164
+side,e3955a06-CRH380AL_front_side.001_side,med,body 连通域过多 ncc=5
+side,e3955a06-CRH380AL_front_side.001_side,high,door 异常(线状/过小) n=319 h=1 w=650
+side,e3a8b735-CRH2A_4-Side_Front_side,med,body 连通域过多 ncc=40
+side,e3a8b735-CRH2A_4-Side_Front_side,high,door 异常(线状/过小) n=331 h=5 w=2273
+side,e3b4afa2-CRH2E_front_side.009_side,med,body 连通域过多 ncc=11
+side,e3b4afa2-CRH2E_front_side.009_side,high,door 异常(线状/过小) n=136 h=1 w=136
+side,e3ca4a42-CRH2H_front_side.009_side,med,body 连通域过多 ncc=23
+side,e3ca4a42-CRH2H_front_side.009_side,high,door 异常(线状/过小) n=597 h=33 w=2335
+side,e3ca4a42-CRH2H_front_side.009_side,med,door 填充率极低 fill=0.008 n=597
+side,e42fa9f6-CRH2A_9-Side_Front_side,high,door 异常(线状/过小) n=227 h=27 w=345
+side,e42fa9f6-CRH2A_9-Side_Front_side,med,door 填充率极低 fill=0.024 n=227
+side,e457b93f-CRH2B_5-Side_Front_side,med,body 连通域过多 ncc=17
+side,e457b93f-CRH2B_5-Side_Front_side,high,door 异常(线状/过小) n=340 h=4 w=2308
+side,e481c2ca-C300BF-K-0001-08-FrontSide_side,med,body 连通域过多 ncc=31
+side,e481c2ca-C300BF-K-0001-08-FrontSide_side,high,door 异常(线状/过小) n=149 h=1 w=149
+side,e48ee024-CRH2_6-Side_Front_side,med,body 连通域过多 ncc=42
+side,e48ee024-CRH2_6-Side_Front_side,high,door 异常(线状/过小) n=122 h=1 w=122
+side,e499ed21-CR400BF-C-5144-Side_Front_side,med,body 连通域过多 ncc=36
+side,e499ed21-CR400BF-C-5144-Side_Front_side,high,door 异常(线状/过小) n=163 h=1 w=163
+side,e4a4650b-CR400BF_12_FrontSide_side,med,body 连通域过多 ncc=20
+side,e4a4650b-CR400BF_12_FrontSide_side,high,door 异常(线状/过小) n=288 h=2 w=2258
+side,e4d117a2-CR450AF_16_FrontSide_side,med,body 连通域过多 ncc=65
+side,e4e6f468-CRH380B0_09-Side_Front_side,med,body 连通域过多 ncc=24
+side,e4fae8f4-CRH6F-4003-Side_Front_side,high,door 异常(线状/过小) n=690 h=27 w=3119
+side,e4fae8f4-CRH6F-4003-Side_Front_side,med,door 填充率极低 fill=0.008 n=690
+side,e5135878-CRH380AJ_front_side.005_side,med,body 连通域过多 ncc=20
+side,e5135878-CRH380AJ_front_side.005_side,high,door 异常(线状/过小) n=164 h=1 w=164
+side,e54d135b-KDZ1A_08_FrontSide_side,med,body 连通域过多 ncc=72
+side,e54d135b-KDZ1A_08_FrontSide_side,high,door 异常(线状/过小) n=154 h=1 w=154
+side,e5f822d2-CRH380AJ_front_side.016_side,high,door 异常(线状/过小) n=344 h=2 w=505
+side,e61b2a71-CRH2H_front_side.007_side,med,body 连通域过多 ncc=24
+side,e61b2a71-CRH2H_front_side.007_side,high,door 异常(线状/过小) n=133 h=1 w=133
+side,e65d9c62-CRH380AL_front_side.009_side,med,body 连通域过多 ncc=39
+side,e65d9c62-CRH380AL_front_side.009_side,high,door 异常(线状/过小) n=291 h=24 w=330
+side,e65d9c62-CRH380AL_front_side.009_side,med,door 填充率极低 fill=0.037 n=291
+side,e6641cdc-CRH380A_10-Side_Front_side,med,body 连通域过多 ncc=53
+side,e6641cdc-CRH380A_10-Side_Front_side,high,door 异常(线状/过小) n=138 h=1 w=138
+side,e68f7336-CRH2C_front_side.005_side,med,body 连通域过多 ncc=36
+side,e68f7336-CRH2C_front_side.005_side,high,door 异常(线状/过小) n=272 h=5 w=2552
+side,e696b62d-DDJ2_07_Front_Side_side,med,body 连通域过多 ncc=30
+side,e696b62d-DDJ2_07_Front_Side_side,high,door 异常(线状/过小) n=101 h=1 w=101
+side,e6d644f6-CRH2_1-Side_Front_side,med,body 连通域过多 ncc=13
+side,e6d644f6-CRH2_1-Side_Front_side,high,door 异常(线状/过小) n=217 h=6 w=294
+side,e71f95d0-KDZ1A_15_FrontSide_side,med,body 连通域过多 ncc=16
+side,e71f95d0-KDZ1A_15_FrontSide_side,high,door 异常(线状/过小) n=301 h=14 w=3293
+side,e8083083-CR400BF-J-0001-Side_Front_side,high,door 异常(线状/过小) n=173 h=1 w=173
+side,e843c1cc-CRH1E_2-Side_Front_side,med,body 连通域过多 ncc=19
+side,e843c1cc-CRH1E_2-Side_Front_side,high,door 异常(线状/过小) n=147 h=1 w=147
+side,e8884abf-CR200J-B_11_FrontSide_side,med,body 连通域过多 ncc=51
+side,e8884abf-CR200J-B_11_FrontSide_side,high,door 异常(线状/过小) n=143 h=1 w=143
+side,e88cdf49-CRH3C-Side_Front_side,med,body 连通域过多 ncc=45
+side,e88cdf49-CRH3C-Side_Front_side,high,door 异常(线状/过小) n=207 h=1 w=207
+side,e8c67e93-DDJ1_06_Front_Side_side,high,door 异常(线状/过小) n=93 h=1 w=93
+side,e8cad973-CRH5-001A-04-FrontSide_side,med,body 连通域过多 ncc=22
+side,e8cad973-CRH5-001A-04-FrontSide_side,high,door 异常(线状/过小) n=82 h=1 w=82
+side,ea59aeb2-KDZ1A_06_FrontSide_side,med,body 连通域过多 ncc=75
+side,ea59aeb2-KDZ1A_06_FrontSide_side,high,door 异常(线状/过小) n=136 h=1 w=136
+side,eac0687f-CR200J1-04-FrontSide_side,med,body 连通域过多 ncc=29
+side,eac0687f-CR200J1-04-FrontSide_side,high,door 异常(线状/过小) n=182 h=1 w=182
+side,eae1659d-NZJ_10_Frontside_side,high,door 异常(线状/过小) n=231 h=118 w=2281
+side,eae1659d-NZJ_10_Frontside_side,med,door 填充率极低 fill=0.001 n=231
+side,eaf95006-CR400BF_27_FrontSide_side,med,body 连通域过多 ncc=27
+side,eaf95006-CR400BF_27_FrontSide_side,high,door 异常(线状/过小) n=198 h=1 w=198
+side,eb6a8b70-CRH5-001A-09-FrontSide_side,high,door 异常(线状/过小) n=74 h=1 w=74
+side,ec56eed2-CRH380G_05-Side_Front_side,med,body 连通域过多 ncc=43
+side,ec56eed2-CRH380G_05-Side_Front_side,high,door 异常(线状/过小) n=151 h=1 w=151
+side,ec772f85-CRH380BL_10-Side_Front_side,med,body 连通域过多 ncc=6
+side,ec772f85-CRH380BL_10-Side_Front_side,high,door 异常(线状/过小) n=187 h=1 w=187
+side,eca2dd71-CR200J_D_09_FrontSide_side,high,door 异常(线状/过小) n=112 h=1 w=112
+side,ecc9f1d9-CRH6A-0618-Side_Front_side,med,body 连通域过多 ncc=29
+side,ecc9f1d9-CRH6A-0618-Side_Front_side,high,door 异常(线状/过小) n=334 h=28 w=3054
+side,ecc9f1d9-CRH6A-0618-Side_Front_side,med,door 填充率极低 fill=0.004 n=334
+side,ee4aed79-CR200J_D_02_FrontSide_side,med,body 连通域过多 ncc=66
+side,ee4aed79-CR200J_D_02_FrontSide_side,high,door 异常(线状/过小) n=114 h=1 w=114
+side,ee9e4240-C400BF-K-0001-01-FrontSide.008_side,med,body 连通域过多 ncc=33
+side,ee9e4240-C400BF-K-0001-01-FrontSide.008_side,high,door 异常(线状/过小) n=182 h=1 w=182
+side,eefcba6e-CRH380B_03-Side_Front_side,med,body 连通域过多 ncc=18
+side,eefcba6e-CRH380B_03-Side_Front_side,high,door 异常(线状/过小) n=198 h=1 w=198
+side,ef602686-DJF1_02_Front_Side_side,med,body 连通域过多 ncc=27
+side,ef602686-DJF1_02_Front_Side_side,high,door 异常(线状/过小) n=329 h=14 w=3623
+side,f01ac3db-CRH2B_2-Side_Front_side,med,body 连通域过多 ncc=33
+side,f02bdb68-CRH380CL-Side_Front_side,med,body 连通域过多 ncc=7
+side,f16eb637-CJ1_-_12_-FrontSide_side,med,body 连通域过多 ncc=5
+side,f2740b72-CRH380A_1-Side_Front_side,med,body 连通域过多 ncc=14
+side,f5640b9d-CJ5-0506-Side_Front_side,med,body 连通域过多 ncc=17
+side,f6448dc5-CRH380BL_09-Side_Front_side,med,body 连通域过多 ncc=10
+side,f6ec845a-CRH2J_front_side.008_side,med,body 连通域过多 ncc=37
+side,f725a473-CR200J-B_04_FrontSide_side,med,body 连通域过多 ncc=5
+side,f7567cf2-CR200J-B_43_FrontSide_side,med,bogie 碎片多 ncc=8
+side,f7a58763-CRH2C_front_side.003_side,med,body 连通域过多 ncc=8
+side,f89dcc52-CR450AF_17_FrontSide_side,med,body 连通域过多 ncc=37
+side,f90b1dd0-C400BF-K-0001-01-FrontSide.001_side,med,body 连通域过多 ncc=14
+side,f9d43a75-CR400BF-J-0003-06-FrontSide_side,med,body 连通域过多 ncc=19
+side,f9d43a75-CR400BF-J-0003-06-FrontSide_side,high,door 异常(线状/过小) n=137 h=1 w=137
+side,fb32fca6-CR200J-Side_Front_side,med,body 连通域过多 ncc=40
+side,fd6666fb-CRH380CL_02-Side_Front_side,med,body 连通域过多 ncc=26
+side,fdeddb7c-CR450AF_05_FrontSide_side,med,body 连通域过多 ncc=9
+side,ff9e9bf2-C300BF-K-0001-Side_Front_side,med,body 连通域过多 ncc=11
+side,ff9ec71b-CR400BF-Z-0524-Side_Front_side,med,body 连通域过多 ncc=16

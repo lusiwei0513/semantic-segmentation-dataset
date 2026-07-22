@@ -1,0 +1,20 @@
+{
+  "weights": "outputs\\unet_resnet34_data_front_tune\\best.pt",
+  "config": "config_data_front_unet_tune.yaml",
+  "mode": "seg",
+  "split": "test",
+  "image_size": 512,
+  "num": 38,
+  "miou": 0.7489061951637268,
+  "iou": {
+    "background": 0.9923644065856934,
+    "body": 0.9455409049987793,
+    "windshield": 0.86808180809021,
+    "nose_tip": 0.43309587240219116
+  },
+  "ppt_picks_best_mid_worst": [
+    "front_c7401f30",
+    "front_ff9e9bf2",
+    "front_d7cd1123"
+  ]
+}

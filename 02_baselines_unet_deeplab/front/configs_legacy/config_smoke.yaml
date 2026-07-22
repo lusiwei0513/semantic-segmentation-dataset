@@ -1,0 +1,30 @@
+data:
+  labelme_dir: ../front_images
+  prepared_dir: ../prepared_front
+  image_size: 512
+  nose_tip_radius: 16
+  val_ratio: 0.2
+  seed: 42
+model:
+  arch: Unet
+  encoder: resnet34
+  encoder_weights: imagenet
+  num_classes: 4
+train:
+  epochs: 2
+  batch_size: 2
+  lr: 0.0001
+  weight_decay: 0.0001
+  num_workers: 2
+  amp: true
+  early_stop_patience: 20
+  class_weights:
+  - 0.5
+  - 1.0
+  - 2.0
+  - 4.0
+  dice_weight: 1.0
+  ce_weight: 1.0
+paths:
+  output_dir: outputs
+  run_name: smoke_unet_resnet34

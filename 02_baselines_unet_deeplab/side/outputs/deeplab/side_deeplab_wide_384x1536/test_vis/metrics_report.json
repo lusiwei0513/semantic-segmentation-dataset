@@ -1,0 +1,23 @@
+{
+  "weights": "outputs_side\\deeplab_resnet34_data_side_v2_384x1536\\best.pt",
+  "config": "config_data_side_deeplab_384x1536.yaml",
+  "split": "test",
+  "image_size": [
+    384,
+    1536
+  ],
+  "num": 38,
+  "miou": 0.7980144023895264,
+  "iou": {
+    "background": 0.9807246923446655,
+    "body": 0.9655653238296509,
+    "windshield": 0.514743983745575,
+    "bogie": 0.8634761571884155,
+    "door": 0.8482723236083984
+  },
+  "ppt_picks_best_mid_worst": [
+    "side_e4e6f468",
+    "side_ce7eae8d",
+    "side_f38fad77"
+  ]
+}
