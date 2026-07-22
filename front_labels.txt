@@ -1,0 +1,3 @@
+body
+windshield
+nose_tip
