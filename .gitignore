@@ -28,11 +28,10 @@ Thumbs.db
 *.exe
 *.msi
 
-# Archive clutter (code/docs of joint train kept; skip bulky third-party)
+# Archive clutter (code/docs of joint train kept)
 05_archive_misc/
-04_archive_joint_segformer/archive_bundles/
-04_archive_joint_segformer/third_party/
-04_archive_joint_segformer/supplemental/
+04_joint_segformer/archive_bundles/
+04_joint_segformer/supplemental/
 
 # Optional local smoke configs
 **/_smoke_*.yaml

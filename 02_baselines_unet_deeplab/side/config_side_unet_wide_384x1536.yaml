@@ -1,5 +1,4 @@
-# UNet-R34 side — 对齐 SegFormer 侧视 letterbox 384×1536（保留长宽比）
-# 原 384×384 方图会把 ~4.5:1 侧视压到高度约 85px；本配置约 4× 有效分辨率
+# UNet-R34 side — 对齐 SegFormer 侧视 letterbox 384×1536（保留 ~4.5:1 长宽比）
 
 data:
   mode: side

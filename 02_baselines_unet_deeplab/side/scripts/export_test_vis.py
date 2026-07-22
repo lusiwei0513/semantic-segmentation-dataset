@@ -1,4 +1,4 @@
-"""Export fold test-set overlays for side UNet / DeepLab (square or HxW letterbox)."""
+"""Export fold test-set overlays for side UNet / DeepLab (HxW letterbox)."""
 
 from __future__ import annotations
 

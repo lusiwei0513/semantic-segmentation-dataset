@@ -57,7 +57,7 @@ def main() -> None:
     ap.add_argument(
         "--weights",
         type=Path,
-        default=ROOT / "outputs" / "unet_seg" / "side_unet_square_384" / "best.pt",
+        default=ROOT / "outputs" / "unet_seg" / "side_unet_wide_384x1536" / "best.pt",
     )
     ap.add_argument("--max-images", type=int, default=0)
     ap.add_argument("--out-dir", type=Path, default=None)
